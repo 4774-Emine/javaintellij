@@ -12,31 +12,30 @@ atlar ve loop'un bir sonraki değerinden devam eder.
  */
 
 // Task-> girilen bir mail hesabındaki ' ' karakterlerini handle ederek print eden code cerate ediniz
-        Scanner sc=new Scanner (System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("mail adresi giriniz");
 
-        String mail=sc.nextLine();
-        for(int i=0; i<mail.length(); i++){
-            char ch=mail.charAt(i);
-             if(ch==' '){
-                 continue;
-             }
-            System.out.print(ch);
+        String mail = sc.nextLine();
+        for (int i = 0; i < mail.length(); i++) {
+            char ch = mail.charAt(i);
+            if (ch == ' ') continue;
 
+            System.out.print(ch);
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
     }
+}
 
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+

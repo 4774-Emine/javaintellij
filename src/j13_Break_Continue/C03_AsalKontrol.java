@@ -16,6 +16,7 @@ public class C03_AsalKontrol {
         for (int i = 2; i < sayi; i++) {
             if (sayi % i == 0) {//eğer sayı kendisine kadar olan sayılara tam bölünüyorsa
                 asalMı = false;
+                break;
 
             }
         }
