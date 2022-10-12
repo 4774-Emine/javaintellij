@@ -22,7 +22,7 @@ public class C02_staticVariable {
         System.out.println("firmaID = " + firmaID);//0
         firmaID = 1001;//static variable name ile call  -> best practice
         System.out.println("firmaID = " + firmaID);//1001
-        C02_staticVariable C02_StaticVariable = null;
+        C02_staticVariable C02_StaticVariable =null;
         C02_StaticVariable.firmaIT = true;//classname ile static variable call -> bad practice
 
         staticMethod();//static method static maine call edildi-< astral galaxy seyahat
