@@ -6,7 +6,7 @@ public class C03_Arrays {
     public static void main(String[] args) {
 
 //String data Array'a çevirme...split()-> girilen parametre değere göre String ifade parçalanır
-        String str="javaCAN'lara selam olsun.en kısa zamanda bolcana offer ";
+        String str="javaCAN'lara selam olsun. en kısa zamanda bolcana offer sonrası TUZLABALIK :) ";
         //task-> string ifadeyi kelime sayısını print eden code create ediniz
       String strArr[] = str.split(" ");//str her " " karaktere göre parçalanır.
                                             // her bir parça strArr2 nin bir elemanı  olarak atandı

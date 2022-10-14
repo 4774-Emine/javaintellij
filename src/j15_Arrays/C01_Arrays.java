@@ -19,22 +19,23 @@ public class C01_Arrays {
 
         // Array tanımlama...
         int a;//declare dilen ama atanmayan primitive data
-        int arr[] ;//declare (tanımlanan) edilen ama atanmayan int type array
+        int arr[];//declare (tanımlanan) edilen ama atanmayan int type array
         //tanımlanan array atama yapılmadan kullanılamaz...
 
-        String  isimArr[] ={"muharrem","enise","cebrail","nazım","özge"};// hem tanımlama hem atama yapılan String array
+        String isimArr[] = {"muharrem", "enise", "cebrail", "nazım", "özge"};// hem tanımlama hem atama yapılan String array
         //String [] isimArr1 ={"muharren","enise","cebrail","nazım","özge"};// hem tanımlama hem atama yapılan String array
-        int sayıArr[]=new int[5];//java heap memorhy'de 5 default->0 olan int array  create edildi
+        int sayıArr[] = new int[5];//java heap memorhy'de 5 default->0 olan int array  create edildi
         // [0,0,0,0,0]
 
 
         // Array'a eleman ekleme...
-        sayıArr[2]=34;
-        sayıArr[0]=35;
-        sayıArr[1]=34;
-        sayıArr[3]=61;
-        sayıArr[0]=34;//  0 index array elamanı 34 değeri ile update edildi
+        sayıArr[2] = 18;
+        sayıArr[0] = 43;
+        sayıArr[1] = 34;
+        sayıArr[3] = 99;
+        sayıArr[0] = 55;//  0 index array elamanı 34 değeri ile update edildi
         //array elemanlrı uniqe olmak zorunda değildir tekrarlı array elamnı olabilir.
+
 
         // Array eleman sayısı boyut değeri...
 
@@ -43,7 +44,8 @@ public class C01_Arrays {
 
         // Array son elemanı ...
         System.out.println("array son elemanı :" + isimArr[isimArr.length - 1]);//özge
-        isimArr[isimArr.length - 1]="QA Özge hanım";//array son eleman update edildi.
+        isimArr[isimArr.length - 1] = "QA Özge hanım";//array son eleman update edildi.
+
 
 // Array de olmayan eleman
 
@@ -52,13 +54,75 @@ public class C01_Arrays {
 
         // Array elamanları print etme...
         for (int i = 0; i < isimArr.length; i++) {
-            System.out.print(isimArr[i]+" ");
+            System.out.print(isimArr[i] + " ");
         }
         System.out.println();
         System.out.println("isimArr = " + isimArr);//isimArr = [Ljava.lang.String;@79698539 -> isimArr referans değeridir
         System.out.println(Arrays.toString(isimArr));//isim Array sitringe çevrildi.
+
+
+        //Task->sayıArr elemanlarından tek olanları print eden code create ediniz
+
+        for (int i = 0; i < sayıArr.length; i++) {
+            if (sayıArr[i] % 2 == 1) {
+                System.out.println(sayıArr[i] + " ");
+            }
+        }
+
+      //Task->sayıArr çift index olanları print eden code create ediniz
+      for(int i=0; i<sayıArr.length; i+=2) {
+          System.out.print(sayıArr[i] + " ");//34,34
+          }
+        System.out.println();
+
+      //task->isimArr 5 harfli elemanlarından oluşan array ın elemanlarını print eden code create ediniz
+
+        String yeniArr[]=new String[isimArr.length];//isimArr elemanı kadar boş yeni arr atandı
+        for(int i=0; i<isimArr.length;i++){
+            if(isimArr[i].length()==5){
+                yeniArr[i]=isimArr[i];
+            }
+        }
+        System.out.println(Arrays.toString(yeniArr));
+
+
+//Array elemanalrı naturel(k->b:ascending b->k:descending,alfabetik) sıralama için sort();method kullanılır
+        System.out.println(Arrays.toString(isimArr));//sıralama öncesi->[muharrem, enise, cebrail, nazım, QA Özge hanım]
+        Arrays.sort(isimArr);//isimArr elemanları naturel sıralama yapıldı
+        System.out.println(Arrays.toString(isimArr));//sıralama sonrası->[QA Özge hanım, cebrail, enise, muharrem, nazım]->önce büyük harf başlar
+
+
+        System.out.println(Arrays.toString(sayıArr));//sıralama öncesi sayıArr->[55, 34, 18, 99, 0]
+        Arrays.sort(sayıArr);//sayıArr k->b sıralandı
+        System.out.println(Arrays.toString(sayıArr));//sıralama sonrası sayıArr->[0, 18, 34, 55, 99]
+
+
+
+
+
     }
-}
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
