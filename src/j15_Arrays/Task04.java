@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class Task04 {
     public static void main(String[] args) {
-
         // task-> girilen bir int array elamanlarından  ortlamadan buyuk olan eleman sayısını print eden code create ediniz
         Scanner sc = new Scanner(System.in);
 
@@ -27,7 +26,7 @@ public class Task04 {
         }
         System.out.println("array eleman toplamları : "+arrToplam);
 
-        // ortalama=sayı toplamı/ sayı adedi ->arrToplam/arr.lenth
+    // ortalama=sayı toplamı/ sayı adedi ->arrToplam/arr.lenth
         int arrOrtlama=arrToplam/arr.length;
 
         System.out.println("agam arrayın ortlaması :"+arrOrtlama);
@@ -42,36 +41,3 @@ public class Task04 {
         System.out.println("agam giridigin array elamlarından ortlamayı geçen eleman sayısı :"+ortlamayıGecenElemnSayısı);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -3,17 +3,17 @@ package j11_MethodCreation.tasks;
 import java.util.Scanner;
 
 public class Task02 {
+
     public static void main(String[] args) {
+        //task -> girilen ad ve soyadın ilk harfleri buyuk diğerlerini kucuk yapan method create ediniz
 
-//task->girilen ad ve soyadın ilk harfleri büyük diğerlerini küçük yapan method create ediniz
-Scanner sc=new Scanner(System.in);
 
-        System.out.println("adınızı giriniz");
-        String ad=sc.next();
+        Scanner sc =new Scanner(System.in);
+        System.out.print("adınızı giriniz : ");
+        String  ad= sc.next();
 
-        System.out.println("soyadınızı giriniz");
-        String soyad=sc.next();
-
+        System.out.print("soyadınızı giriniz : ");
+        String  soyad= sc.next();
 
         isimSoyisimHarfKontrol(ad, soyad);
         System.out.println(isimSoyisimHarfKontrol2(ad, soyad));
@@ -33,40 +33,6 @@ Scanner sc=new Scanner(System.in);
         ad=ad.substring(0,1).toUpperCase()+ad.substring(1).toLowerCase();
         soyad=soyad.substring(0,1).toUpperCase()+soyad.substring(1).toLowerCase();
 
-        return ad+" "+soyad;
+    return ad+" "+soyad;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

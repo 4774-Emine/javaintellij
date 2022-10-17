@@ -5,7 +5,19 @@ public class C04_WrapperClass {
     public static void main(String[] args) {
         String name = "Haluk";
         int yas = 33;
-
+ /*
+            Note: Java primitive lere method'lar ekleyerek yeni bir
+                  yapi olusturdu, bu yapiya "Wrapper Class"
+                  Primitive         Wrapper
+                     byte     ==>    Byte
+                     short    ==>    Short
+                     ** int   ==>    Integer
+                     long     ==>    Long
+                     float    ==>    Float
+                     double   ==>    Double
+                     boolean  ==>    Boolean
+                     ** char  ==>    Character
+         */
         System.out.println(name.toUpperCase());//HALUK
 
         // non-primitive data turleri data depolamak yaninda kullanışlı birçok method'a sahiptir

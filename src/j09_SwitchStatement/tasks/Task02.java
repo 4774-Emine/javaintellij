@@ -5,19 +5,24 @@ import java.util.Scanner;
 public class Task02 {
     public static void main(String[] args) {
 
-        // Kullanıcının yasadıgı güne  göre 100 gün sonra hangi gün olduğunu print eden code create ediniz
-        // pazartesi hafta başlangıcı olarak alınız
+        // Kullanıcının yasadıgı güne  göre 100 gün sonra hangi gün olduğunuz yazdırınız.
+        // pazartesi hafta başlangıcı
         Scanner scan = new Scanner(System.in);
         System.out.println("Pazartesi: 1\nSalı : 2\nÇarşamba: 3\nPerşembe: 4\nCuma: 5\nCumartesi: " +
                 "6\nPazar: 7\n Haftanın kaçıncı gününde olduğunu giriniz : ");
         int kacıncıGun = scan.nextInt();
-        if (kacıncıGun <= 0 || kacıncıGun > 6) {
+
+
+        if (kacıncıGun <= 0 || kacıncıGun > 7) {
             System.out.println("hatalı veri girdiniz");
         } else {
+
+
             System.out.print("kac gun sonrasını öğrenmek istiyorsunuz : ");
             int kacGunSonrasi = scan.nextInt();
             int bulunanGun = (kacGunSonrasi + kacıncıGun) % 7;
             switch (bulunanGun) {
+
                 case 1:
                     System.out.println(kacGunSonrasi + " gun sonra gunlerden PAZARTESİ");
                     break;
@@ -43,6 +48,7 @@ public class Task02 {
                     System.out.println("agam niddin!!!  hafta 7 gun :-( ");
             }
         }
+
     }
 }
 

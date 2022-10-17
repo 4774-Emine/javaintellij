@@ -14,6 +14,8 @@ import java.util.Scanner;
     Bunun haricinde iki koşul ifadesi arasında dikkate değer bir performans farklılığı bulunmuyor.
 
  ahan da TRICK-> Switch Statement'de long,double,float ve boolean asla KULLANILMAZZZ.. CISSS
+          Switch de sadece int, byte, short, char, String data tipleri kullanilabilir
+        Eger 3 den fazla durum varsa switch() tercih edilir.
  */
 public class C01_SwitchCase {
 

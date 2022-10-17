@@ -10,6 +10,10 @@ public class C02_TypeCasting {
 			Auto Widening Casting -> Kucuk data type'larini buyuk data typlearina Java  otomatik olarak yapar.
 
 		 */
+        //Type Casting: Bir numeric data type'ini diger numeric data type'ina cevirmek demektir.
+        //              byte < short < int < long < float < double
+        //Note 1: Kucuk data type'ini buyuk data type'ine cevirmeye "Auto Widening" denir
+        //Note 2: Buyuk data type'ini kucuk data type'ine cevirmeye "Explicit Narrowing" denir
 
         boolean basarılı = true;
         //String basarı=basarılı; -> dogal uyum olmayan variable'larda castşng yapılamaz CTE

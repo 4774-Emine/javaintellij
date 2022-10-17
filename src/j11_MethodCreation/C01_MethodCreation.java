@@ -1,6 +1,7 @@
 package j11_MethodCreation;
 
-public class C01_MethodCreation { //main method açılış
+public class C01_MethodCreation {
+    //main method açılış
         /*
         code okunabilirliği ve sadeliği için sürekli kullanılan aksiyonlar için method create edip
         main method'a call edip run etmek uygulamanın test edilmesi mantanance ve reusable açısından tercih edilir
@@ -25,8 +26,6 @@ public class C01_MethodCreation { //main method açılış
 
     public static void main(String[] args) {
 
-
-
         System.out.println("javacanlara selam");
         topla();//parametresiz return type ılmayan void bir method call edildi
         System.out.println("agam bu yazıyı okuduysan ahan da yukarıdaki method call oldu ");
@@ -48,7 +47,7 @@ public class C01_MethodCreation { //main method açılış
 
     }//main method kapanış
 
-    public static int topla4(int b, int a) {//int  ve int parametreli inr return eden method
+    public static int topla4(int b, int a) {//int ve int parametreli inr return eden method
 
         return 2*(a+b);
     }
@@ -61,8 +60,8 @@ public class C01_MethodCreation { //main method açılış
         return (a + b);
     }
 
-        // bir method Class'in icinde ama  main method'un disinda  cereate edilir
-        // Best practice-> method'lar main method'dan sonra create edilir.
+    // bir method Class'in icinde ama  main method'un disinda  cereate edilir
+    // Best practice-> method'lar main method'dan sonra create edilir.
 
     public static void topla() {//parametresiz return type ılmayan void bir method
         int a = 33;
@@ -78,7 +77,4 @@ public class C01_MethodCreation { //main method açılış
     }
 
 
-
-
 }//class kapanış
-

@@ -6,6 +6,10 @@ import java.util.Scanner;
 public class C01_ScannerClass {
 
     public static void main(String[] args) {
+
+        //Scanner bir Java Class'idir, bu Class'i kullanabilmek icin "import" etmek gerekir.
+        //Scanner Class'i Java nin util kutuphanesindedir.
+
         // kullanıcıdan veri almak içinn şu adım takip edilir
         //1. adım-> Scanner class'dan obj create edilir.
 

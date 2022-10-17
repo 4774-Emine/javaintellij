@@ -2,27 +2,20 @@ package j10_StringManipulations.tasks;
 
 public class Task08 {
     public static void main(String[] args) {
-/* TASK:
-Aşağıdaki string değişkenini kullanarak konsolda isminizi yazdırınız.
-String harfDepo="ABCDEFGHIJKLMNOPRSTUVWXYZ";
- */
+        /*  TASK :
+   Asagidaki String degiskenini kullanarak  konsolda isminizi yazdiriniz.
+   String  harfDepo = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    */
 
+        String  harfDepo = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+char h=harfDepo.charAt(harfDepo.indexOf("N"));
+char a=harfDepo.charAt(harfDepo.indexOf("A"));
+char l=harfDepo.charAt(harfDepo.indexOf("Z"));
+char u=harfDepo.charAt(harfDepo.indexOf("L"));
+char k=harfDepo.charAt(harfDepo.indexOf("I"));
 
-        String  harfDepo="ABCDEFGHIJKLMNOPRSTUVWXYZ";
-
-        char h=harfDepo.charAt(harfDepo.indexOf("H"));
-        char a=harfDepo.charAt(harfDepo.indexOf("A"));
-        char l=harfDepo.charAt(harfDepo.indexOf("L"));
-        char u=harfDepo.charAt(harfDepo.indexOf("U"));
-        char k=harfDepo.charAt(harfDepo.indexOf("K"));
-
-
-        System.out.println(h+a+l+u+k);//ascii ->toplama->373
-        System.out.println(""+h+a+l+u+k);//string->concat->HALUK
-
-
-
-
+        System.out.println(h+a+l+u+k);//asciii->toplama-> 373
+        System.out.println("adım : "+h+a+l+u+k);//string->concat-> HALUK
 
 
 

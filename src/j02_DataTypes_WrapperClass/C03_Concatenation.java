@@ -2,7 +2,12 @@ package j02_DataTypes_WrapperClass;
 
 public class C03_Concatenation {
     public static void main(String[] args) {
-
+   /*
+        Not: char variable'lari matematiksel islemlerde kullanirsaniz, Java onlarin ASCII degerlerini kullanir.
+             Ornegin; System.out.println('A' + 'C'); ekrana AC yerine 132 yazdirir
+        Note: Java'da "+" sembolunun iki anlami vardir. i)Toplama islemi ii)Birlestirme Islemi(Concatenation)
+              Java "+" sembolu gorunce once toplama yapmaya calisir, yapamazsa birlestirme islemi yapmaya calisir, o da olmazsa hata verir.
+     */
         String ad = "Haluk";
         String soyad = "Bilgin";
 

@@ -2,23 +2,20 @@ package j12_Lopps.L01_ForLoop;
 
 public class C03_NestedForLoop {
     public static void main(String[] args) {
+
         /*
-        Eğer bir döngünün body sinde başka bir döngü bulunuyorsa bu döngülere nested-loop_>içiçe döngü denir
-        İç döngü dış döngünün her adımda tekrar çalışır
-        İçiçe döngülerde en içteki döngü önce çalışır
+        eger bir döngünün baody'sinde başka  bir döngü bulunuyorsa bu tür döngülere nested-loop-> içiçe döngü denir
+        İç döngü dış döngünün her adımda tekrar çalışır.
+        içiçe döngülerde emn içteki döngü en önce çalışır..
          */
 
+        for (int apt = 1; apt <=10; apt++) {//dış döngü
+            System.out.println("Apt döngü : "+apt);
 
-      for(int apt=0; apt<=10; apt++){
-          System.out.println("dış döngü: "+apt);
-
-          for(int daire=1;daire<6;daire++){
-              System.out.println("apt "+apt+"için daire döngü :"+daire);
-          }
-      }
-
-
-
+            for (int daire = 1; daire <6; daire++) {//iç döngü
+                System.out.println("apt "+apt+" için daire döngü dire : "+daire);
+            }
+        }
 
 
     }

@@ -12,6 +12,11 @@ public class C06_NestedTernaryOperator {
        Sayi o dan kucuk ise ekrana "Negatif Sayi" yazdiriniz.
         */
 
+       /*
+       ahan da TRICK : Java "nested" kodlari calistirirken cok zaman harcar, buna "Time Complexity" denir.
+                Bu yuzden mumkunse "nested" kod yazmamaya calisiriz.
+
+        */
         Scanner sc = new Scanner(System.in);
 
         System.out.println("agam bi tamsayı gir bakam : ");

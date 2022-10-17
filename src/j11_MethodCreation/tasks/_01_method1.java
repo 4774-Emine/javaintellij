@@ -1,5 +1,7 @@
 package j11_MethodCreation.tasks;
 
+import java.util.Scanner;
+
 public class _01_method1 {
     /*
     Ismi randomNum olan bir method oluşturun.

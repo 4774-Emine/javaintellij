@@ -4,21 +4,23 @@ import java.util.Scanner;
 
 public class C06_Task {
     public static void main(String[] args) {
+        // task -> girilen bir ifadedeki c karakterine kadar a karakter sayısını print eden code create ediniz.
 
- //task-> girilen bir ifadedeki C karakterine kadar a karakter sayısını print eden code create ediniz
-Scanner sc = new Scanner(System.in);
-        System.out.println("bir string ifade giriniz");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("AGAm bişeyler cızıkdırasan  :");
 
-        String biseyler=sc.nextLine();
-        int aSayısı=0;
-        for(int i=0; i<biseyler.length(); i++) {
-            if(biseyler.charAt(i)=='a'){
+        String bişeyler = sc.nextLine();// egik Gabık @ cimey ıl. k om
+        int aSayısı = 0;
+        for (int i = 0; i < bişeyler.length(); i++) {
+            if (bişeyler.charAt(i)=='a'){
                 aSayısı++;
-            }else if(biseyler.charAt(i)=='c'){
+            }else if (bişeyler.charAt(i)=='c'){
                 break;
+
             }
-            System.out.println("döngüğde işleme giren karakterler:" + biseyler.charAt(i));
+            System.out.println("döngüde işleme giren karakterler :"+bişeyler.charAt(i));
         }
-        System.out.println("a sayısı= "+ aSayısı + "tane");
+        System.out.println("agam cızıktırdıgın bişeylerde a sayısı : "+aSayısı+" tane");
+
     }
 }

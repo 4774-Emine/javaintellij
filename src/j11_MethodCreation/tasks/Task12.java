@@ -1,5 +1,7 @@
 package j11_MethodCreation.tasks;
 
+import java.util.Scanner;
+
 public class Task12 {
 
     public static void main(String[] args) {

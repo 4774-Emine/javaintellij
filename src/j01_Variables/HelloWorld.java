@@ -2,7 +2,7 @@ package j01_Variables;
 
 public class HelloWorld {
 
-
+    //main method icinde kullanacaginiz hersey "static" olmalidir.
     public static void main(String[] args) {
         // System.out.println("merhaba dünya");// bu komut konsala yazılan metni print eder
 
@@ -39,7 +39,10 @@ public class HelloWorld {
         javada space "boşluk" bir character olarak tanımlanır
         h a l u k->9 karakter
          */
-
+        //sout yazip "Enter" a basiniz System.out.println() otomatik olarak yazilir.
+        //Ekrana bir sey yazdirmak icin iki tane kod var
+        // i)System.out.println() ==> Satirbasi yapar
+        // ii)System.out.print() ==> Satirbasi yapmaz
     }
 
 

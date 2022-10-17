@@ -4,27 +4,22 @@ import java.util.Scanner;
 
 public class Task07 {
     public static void main(String[] args) {
-  /*
-  Girilen string içindeki istenen indexteki karakteri print eden code create ediniz...
-   */
-        Scanner sc=new Scanner(System.in);
-        System.out.println("bir metin giriniz : ");
-        String str=sc.next();
-        System.out.println("istediğin karakter için index gir : ");
-        int index= sc.nextInt();
+        /*
+        Girilen string içindeki istenen index'deki karakteri print eden code create ediniz
+         */
 
-        if(str.length()>index){
-            System.out.println(str.substring(index, index + 1));//1.yol
-            System.out.println(str.charAt(index));//2.yol
+        Scanner sc = new Scanner(System.in);
 
-        }else System.out.println("olmayan index istiyorsunuz");
+        System.out.print("bir metin giriniz : ");
+        String str = sc.next();
 
+        System.out.println("istenen karakterin index'ini giriniz : ");
+        int index=sc.nextInt();
 
-
-
-
-
-
+        if (str.length()>index){
+           // System.out.println(str.substring(index, index + 1));
+            System.out.println(str.charAt(index));
+        }else System.out.println("girdiğiniz metinde olmayan index istiyorsunuz");
 
     }
 }

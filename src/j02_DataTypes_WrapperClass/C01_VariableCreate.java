@@ -7,6 +7,15 @@ public class C01_VariableCreate {
         // 1- Datatype(Değişken türü) VariableName(Değişken ismi) "=" value(değişken değeri) ";"
         //             int                  yas                    =  48  ;
         //                Declaration(Tanımlama)                   =  Assaignment(Atama)
+        //Variable nasil olusturulur?
+
+        //1)Access Modifier   2)Data Type     3)Variable ismi     4) =       5)Deger    6);
+
+        // Java'da ";" Ingilizce'deki "." gibidir
+        // Ingilizce'de "cumle" deriz, Java'da "statement" deriz
+
+        // "=" sembolu "Assignment(Atama) Operator" olarak adlandirilir
+        // "Assignment(Atama) Operator" sagdaki degeri alir soldaki variable'in icine koyar
 
         // 1. yol -> best practice(Recomended) tavsiye edilen
         int yas=48;
