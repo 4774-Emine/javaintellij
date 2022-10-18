@@ -5,16 +5,14 @@ import java.util.Arrays;
 
 public class Task04 {
     public static void main(String[] args) {
-
-  /* TASK :
+        /* TASK :
 
          * Input olarak verilen listteki isimlerden
-         * icinde 'a' harfi bulunanlari silen bir code create ediniz.
+         * icinde ‘a’ harfi bulunanlari silen bir code create ediniz.
          *
          * INPUT : list1={"Ali","Veli","Ayse","Fatma","Omer"}
          * OUTPUT : [Veli,Omer]
          */
-
 
         ArrayList<String> listIsim = new ArrayList<>(Arrays.asList("Ali", "Veli", "Ayse", "Fatma", "Omer"));
         ArrayList<String> aOlmayanlistIsim = new ArrayList<>();//boş list
@@ -32,10 +30,5 @@ public class Task04 {
         System.out.println("listIsim = " + listIsim);//listIsim = [Veli, Omer]
 
 
-
-
-
     }
-
-
 }
