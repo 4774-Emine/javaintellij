@@ -19,5 +19,29 @@ public class C03_indexOf {
         System.out.println(listUlke.indexOf("Amerigonya"));//1-> tekrarlı elemanlarda soldan(baştan) ilk bulunan eleman index'i return eder
         System.out.println(listUlke.lastIndexOf("Amerigonya"));//4->sağdan(sondan) ilk bulunan elemanın index'i return eder
 
+
+      //  ArrayList<String> listUlke = new ArrayList<>(List.of("Alamanya", "Amerigonya", "ingiltere", "isvec"));
+
+        listSehir.addAll(listUlke);//sehirList'e ulkeList eklendi
+        System.out.println("listSehir = " + listSehir);//ulkeList eklenemiş hali->[Stockholm, Münih, Angara, Münih, Alamanya, Amerigonya, ingiltere, isvec]
+
+        listSehir.removeAll(listUlke);//sehirList'tten ulkeList çıkarıldı
+        System.out.println("listSehir = " + listSehir);//ulkeList çıkarılmış hali->[Stockholm, Münih, Angara, Münih]
+
+
+
+//remove all-> bir listten başka list çıkarılıyor
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
