@@ -1,5 +1,9 @@
 package j16_ArrayList.Tasks;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Task01_Market {
     /* TASK :
      * Bir bakkalın 7 günlük tüm kazançlarını günlük olarak gösteren bir program yazınız.
@@ -18,4 +22,74 @@ public class Task01_Market {
      * 			 for döngüsü ile tüm günleri ortalama kazanç ile karşılaştır
      * 			 ortalama kazançtan aşağıysa o günleri return yap.
      * */
+    static ArrayList<String> gunler = new ArrayList<>(Arrays.asList("pazartesi", "salı", "çarşamba", "perşembe", "cuma", "cumartesi", "pazar"));//1.ADIM
+//yukarda hep kullanacığımız için güneş gibi bir list oluşturduk bunu yapmak için başına static ekledik
+
+
+    static ArrayList<Double> gunlukKazanclar = new ArrayList<>();//2.ADIM
+    //gunlukKazanclar Listini de hep kullanacağımız için güneş gibi olsun diye main dışına static yaptık.
+
+    static Scanner sc = new Scanner(System.in);
+    static double haftacirosu = 0;
+
+
+    public static void main(String[] args) {
+
+
+        int gun = 0;
+        while (gun < 7) {//3.ADIM
+
+
+            System.out.println("Adnancım " + gunler.get(gun) + " gününün hasılatını gir : ");
+            double gunkazancı = sc.nextDouble();
+
+            gunlukKazanclar.add(gunkazancı);
+
+            haftacirosu += gunkazancı;
+
+            gun++;
+        }
+
+
+        getOrtalamaninUstundeKazancGünleri();//5.adım için method oluşturuyoruz
+        getOrtalamaninAltindaKazancGünleri();//6.adım için method oluşturuyoruz
+        getOrtalamaKazanc();//4.adım için method oluşturuyoruz
+
+        System.out.println("Haftanın cirosu: " + haftacirosu);
+        System.out.println("Haftanın ortalaması: " + getOrtalamaKazanc());
+        System.out.println(" Ortalama üstü günler:  " + getOrtalamaninUstundeKazancGünleri());
+        System.out.println(" Ortalama altı günler:  " + getOrtalamaninAltindaKazancGünleri());
+    }//METHOD SONU
+
+    private static String getOrtalamaninAltindaKazancGünleri() {//6.ADIM
+        String ortalaAltıGun = "";//String ifadesini günler olduğu için kullandık
+
+        for (int i = 0; i < gunlukKazanclar.size(); i++) {//günlük hasılat döngüsü
+            if (gunlukKazanclar.get(i) < getOrtalamaKazanc()) {//günlük hasılat hafta ortalaması ile kontrol edildi
+                ortalaAltıGun += gunler.get(i);//ortalamanın altında hasılatı olan gün,ortalama altı güne eklendi
+            }
+        }
+
+        return ortalaAltıGun;
+    }
+
+    private static String getOrtalamaninUstundeKazancGünleri() {   //5.ADIM
+        String ortalaustuGun = "";
+        for (int i = 0; i < gunlukKazanclar.size(); i++) {//günlük hasılat döngüsü
+            if (gunlukKazanclar.get(i) > getOrtalamaKazanc()) {//günlük hasılat hafta ortalaması ile kontrol edildi
+                ortalaustuGun += gunler.get(i);//ortalamanın üstünde hasılatı olan gün,ortalama üstü güne eklendi
+            }
+        }
+
+        return ortalaustuGun;
+    }
+
+
+    private static double getOrtalamaKazanc() {//4.ADIM
+        double ortlama = haftacirosu / 7;
+
+        return ortlama;//ortlama yı yazdırma yerine return ettik çünkü ortlamayı sonraki adımlarda tekrar kullanacağız
+
+
+    }
 }
