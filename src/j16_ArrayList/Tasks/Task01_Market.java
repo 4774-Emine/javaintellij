@@ -1,5 +1,6 @@
 package j16_ArrayList.Tasks;
 
+import java.sql.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -21,8 +22,8 @@ public class Task01_Market {
      * 6. Adım : getOrtalamaninAltindaKazancGünleri() adlı method oluşturun.
      * 			 for döngüsü ile tüm günleri ortalama kazanç ile karşılaştır
      * 			 ortalama kazançtan aşağıysa o günleri return yap.
-     * */
-    static ArrayList<String> gunler = new ArrayList<>(Arrays.asList("pazartesi", "salı", "çarşamba", "perşembe", "cuma", "cumartesi", "pazar"));//1.ADIM
+     */
+     static ArrayList<String> gunler = new ArrayList<>(Arrays.asList("pazartesi", "salı", "çarşamba", "perşembe", "cuma", "cumartesi", "pazar"));//1.ADIM
 //yukarda hep kullanacığımız için güneş gibi bir list oluşturduk bunu yapmak için başına static ekledik
 
 
@@ -89,7 +90,6 @@ public class Task01_Market {
         double ortlama = haftacirosu / 7;
 
         return ortlama;//ortlama yı yazdırma yerine return ettik çünkü ortlamayı sonraki adımlarda tekrar kullanacağız
-
-
     }
+
 }

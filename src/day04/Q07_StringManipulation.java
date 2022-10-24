@@ -12,6 +12,20 @@ public class Q07_StringManipulation {
      * xyaz   ==   false
      */
 
+    public static void main(String[] args) {
+        String s = "xyaz";
+        boolean xyzIceriyorMu = false;
+
+        if(s.contains("xyz")){
+            xyzIceriyorMu = true;
+            System.out.println(xyzIceriyorMu);
+        }else {
+            xyzIceriyorMu=false;
+            System.out.println(xyzIceriyorMu);
+        }
+
+    }
+
 
 
 

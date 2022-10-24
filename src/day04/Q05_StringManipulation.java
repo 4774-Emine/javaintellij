@@ -12,4 +12,15 @@ public class Q05_StringManipulation {
      *
      */
 
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("lutfen cumle olusturmak icin bir kelime giriniz : ");
+        String word1 = scan.next();
+        String word2 = scan.next();
+        String word3 = scan.next();
+        String word4 = scan.next();
+
+        System.out.println(word1.substring(0,1).toUpperCase() + word1.substring(1) +" " + word2 +" " + word3 + " "+ word4+ "." );
+    }
+
 }

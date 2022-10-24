@@ -11,5 +11,20 @@ public class Q06_SwitchCase {
               B'yi secmis ise, ==> Java is fun
               C'yi secmis ise, ==> I need to study :)
           */
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("lutfen harflerden birini seciniz : \nA \nB \nC");
+        char choice = scan.next().toUpperCase().charAt(0); //girilen ifadeyi buyuk harfe cevirip ilk karakterini alir
 
+        switch (choice){
+            case 'A' :
+                System.out.println("Java is easy"); break;
+            case 'B':
+                System.out.println("Java is fun"); break;
+            case 'C':
+                System.out.println("I need to study :)"); break;
+            default:
+                System.out.println("A,B ve C harflerinden biriniz seciniz");
+        }
+    }
 }
