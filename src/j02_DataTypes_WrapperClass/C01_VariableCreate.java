@@ -35,7 +35,7 @@ public class C01_VariableCreate {
         int yevmiye,age,kilo;// birden cok aynı tipte değişken tanımlandı
         age=33;
         yevmiye=1000;
-        kilo=99;// tanımlana değişkenlere değer atması yapıldı..
+        kilo=99;// tanımlanan değişkenlere değer atması yapıldı..
 
         int gunluk=1500, yil=2022, agırlık=99;
                 //TRICK -> bir variable sadece bir kez tanımlanabilir ama birden cok değer atanabilir.

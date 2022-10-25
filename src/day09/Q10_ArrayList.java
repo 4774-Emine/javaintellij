@@ -17,7 +17,26 @@ public class Q10_ArrayList {
                   [H, G, E, A]
         */
 
+    public static void main(String[] args) {
+
+     List <String>list= new ArrayList<>();
+
+
+        list.add("H");
+        list.add("G");
+        list.add("E");
+        System.out.println("list = " + list);
+        Scanner input = new Scanner(System.in);
+        System.out.println("bir harf girinz :");
+        String letter = input.next().trim().substring(0,1).toUpperCase();
+        if(list.contains(letter)){
+            list.set(list.indexOf(letter), "Got it" );
+        }else
+            list.add(letter);
+        System.out.println("list = " + list);
+    }
+
+    }
 
 
 
-}

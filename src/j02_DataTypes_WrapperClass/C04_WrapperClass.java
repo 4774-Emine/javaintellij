@@ -2,7 +2,7 @@ package j02_DataTypes_WrapperClass;
 
 public class C04_WrapperClass {
 
-    public static void main(String[] args) {
+    public static <string> void main(String[] args) {
         String name = "Haluk";
         int yas = 33;
  /*
@@ -22,7 +22,7 @@ public class C04_WrapperClass {
 
         // non-primitive data turleri data depolamak yaninda kullanışlı birçok method'a sahiptir
         // ancak primitive data turlerinin boyle bir ozelligi yoktur
-        // primitive data turleri sadece degerleri saklarlar (container) ve hwerhangi bir özellik(method) vs bulundurmaz.
+        // primitive data turleri sadece degerleri saklarlar (container) ve herhangi bir özellik(method) vs bulundurmaz.
         //Ancak primitive data turleri icin de bazi işlemler için (String'den tamsayı çekme) method'lar ihtiyaç
         // olduğunda Java her bir primitive data turunu, non-primitive  Wrapper Class  oluşturarak ilgili methodlarla
         // ara çözüm imkanı sunmuştur.
@@ -52,13 +52,23 @@ public class C04_WrapperClass {
 
         System.out.println("maxByteDegeri = " + maxByteDegeri);
         System.out.println("minByteDegeri = " + minByteDegeri);
+int maxIntDegeri=Integer.MAX_VALUE;
+ int minIntDegeri=Integer.MIN_VALUE;
 
         System.out.println(Integer.MAX_VALUE);
         System.out.println(Integer.MIN_VALUE);
 
+        short maxShortDegeri=Short.MAX_VALUE;
+        short minShortDegeri=Short.MIN_VALUE;
+
+        System.out.println("Short.MIN_VALUE = " + Short.MIN_VALUE);
+        System.out.println("Short.MIN_VALUE = " + Short.MIN_VALUE);
+
+
         int a=5;
         System.out.println(a);// 5
         System.out.println(5);// 5
+
 
     }
 }
