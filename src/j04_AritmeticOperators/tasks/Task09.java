@@ -7,7 +7,7 @@ public class Task09 {
 
     /*
      Çiftlikteki hayvanların ayaklarının toplam sayısını bulma.
-     Çiftlikteki bulunun inek, koyun, tavukların ayark sayısını hesaplayalım.
+     Çiftlikteki bulunun inek, koyun, tavukların ayak sayısını hesaplayalım.
 
      */
 

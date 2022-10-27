@@ -9,7 +9,8 @@ public class _13_create_float3 {
 
         //Kodu aşağıya yazınız.
 
-
+float g=3.55f;
+        System.out.println(g);
 
 
     }

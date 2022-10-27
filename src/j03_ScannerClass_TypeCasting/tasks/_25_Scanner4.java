@@ -8,7 +8,10 @@ public class _25_Scanner4 {
 
     /*   kullanıcının arabansındaki kapı sayısını print eden code create ediniz.  */
 
-
+Scanner sc=new Scanner(System.in);
+        System.out.println("Arabanızdaki kapı sayısını giriniz: ");
+        int kapısayı=sc.nextInt();
+        System.out.println("kapı sayısı: "+ kapısayı);
 
 
     }

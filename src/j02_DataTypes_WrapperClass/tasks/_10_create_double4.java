@@ -10,7 +10,8 @@ public class _10_create_double4 {
         //Kodu aşağıya yazınız.
 
 
-
+double g=550.24;
+        System.out.println(g);
 
     }
 

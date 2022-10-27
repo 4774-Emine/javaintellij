@@ -8,7 +8,8 @@ public class _03_Create_array3_int {
           Array in elemanlarının toplamını yazdır.
           Cevap 220 olmalı.
      */
-        int yeni[] = new int[5];
+
+
 
 
     }

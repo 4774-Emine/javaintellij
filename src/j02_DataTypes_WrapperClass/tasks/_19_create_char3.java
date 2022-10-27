@@ -9,7 +9,8 @@ public class _19_create_char3 {
 
         //Kodu aşağıya yazınız.
 
-
+char w='&';
+        System.out.println(w);
 
     }
 }

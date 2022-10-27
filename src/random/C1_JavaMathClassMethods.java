@@ -6,7 +6,7 @@ public class C1_JavaMathClassMethods {
 
     public static void main(String[] args) {
 
-        int a = -12;
+      int a = -12;
         int b = 4;
 
         System.out.println("a nin mutlak degeri =  " + Math.abs(a)); // 12
@@ -59,6 +59,12 @@ public class C1_JavaMathClassMethods {
         //      int randomSayi = new Random().nextInt(100); //1 ile 100 arasinda
         //      System.out.println("intSayi = " + randomSayi);
         //  }
+
+
+
+
+
+
     }
 }
 

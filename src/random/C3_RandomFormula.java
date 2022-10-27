@@ -9,7 +9,7 @@ public class C3_RandomFormula {
         //eger ki bir deger araliginda olacak sekilde bir random rakam istiyorsak o zaman bize
         //verilen formulu kullanabiliriz.
         //(int) (Math.random() * ((max - min) + 1)) + min;
-        int min = 10;
+       int min = 10;
         int max = 67;
 
         int randomNum = (int) (Math.random() * ((max - min) + 1)) + min;
@@ -17,4 +17,10 @@ public class C3_RandomFormula {
     }
 
 
-}
+
+
+
+
+
+    }
+

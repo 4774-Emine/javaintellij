@@ -10,6 +10,7 @@ public class _16_create_short3 {
         //Kodu aşağıya yazınız.
 
 
-
+short b=-100;
+        System.out.println(b);
     }
 }

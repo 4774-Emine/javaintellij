@@ -17,6 +17,20 @@ public class Task09 {
         sonuç : 5.333333333333333
         */
 
+Scanner sc=new Scanner(System.in);
+        System.out.println("a sayısını giriniz: ");
+        int a=sc.nextInt();
+        System.out.println("b sayısını giriniz: ");
+        int b=sc.nextInt();
+        System.out.println("c sayısını giriniz: ");
+        int c=sc.nextInt();
+    int sayı=((a*a)-(b*b))/(3*c) ;
+        System.out.println("sonuç : "+ sayı);
+
+
+
+
+
 
     }
 }

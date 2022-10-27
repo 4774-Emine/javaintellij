@@ -9,7 +9,8 @@ public class _15_create_short2 {
 
         //Kodu aşağıya yazınız.
 
-
+short h=23;
+        System.out.println(h);
 
     }
 }

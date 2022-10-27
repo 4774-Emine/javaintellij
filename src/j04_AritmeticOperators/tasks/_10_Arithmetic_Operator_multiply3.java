@@ -11,7 +11,9 @@ public class _10_Arithmetic_Operator_multiply3 {
         int sonuc u yazdırın. */
 
 
-
+int x=57686; int y=78121; int z=485; int w=8452;
+        int sonuc=x*y*z*w;
+        System.out.println("sonuc = " + sonuc);
 
     }
 }

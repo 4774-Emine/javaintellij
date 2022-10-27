@@ -70,5 +70,7 @@ int maxIntDegeri=Integer.MAX_VALUE;
         System.out.println(5);// 5
 
 
+
+
     }
 }

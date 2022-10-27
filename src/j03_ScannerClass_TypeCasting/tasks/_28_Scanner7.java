@@ -11,6 +11,9 @@ public class _28_Scanner7 {
               Varsa True , yoksa False olarak  konsoldan cevap veriniz.
               Boolean'ı yazdırınız.   */
 
+       /* int num=5;
+        System.out.println(num<0);*/
+
 
     }
 }

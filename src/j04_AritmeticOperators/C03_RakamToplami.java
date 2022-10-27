@@ -10,7 +10,7 @@ public class C03_RakamToplami {
         Scanner scan = new Scanner(System.in);
         System.out.print("3 basamaklı bir sayı giriniz : ");
         int sayi = scan.nextInt();
-        // 1 ler basamgı-> bir sayının 10 bolumunden kalan 1 ler basmagıdır..
+       // 1 ler basamgı-> bir sayının 10 bolumunden kalan 1 ler basmagıdır..
         int birler = sayi % 10;//sayının birler basamagı
         sayi /= 10;// sayı 10 bolumunden bolumu verir 853/10->85
         int onlar = sayi % 10;// 85in 10 bolumunden kalan->5
@@ -19,6 +19,9 @@ public class C03_RakamToplami {
        //int rakamToplamı = birler + onlar + yüzler;
        //System.out.println("rakamToplamı = " + rakamToplamı);
         System.out.println(birler+onlar+yüzler);
+
+
+
 
 
     }

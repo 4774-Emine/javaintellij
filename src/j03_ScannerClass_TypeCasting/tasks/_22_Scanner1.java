@@ -8,8 +8,10 @@ public class _22_Scanner1 {
 
     /*  kullanıcının ismini print eden code create ediniz  */
 
-
-
+Scanner sc=new Scanner(System.in);
+        System.out.print("Lütfen isminizi giriniz: " );
+String isim=sc.next();
+        System.out.println("isminiz: "+ isim);
 
 
 

@@ -9,6 +9,7 @@ public class _06_create_boolean2 {
 
         //Kodu aşağıya yazınız.
 
-
+boolean emekliMi=false;
+        System.out.println(emekliMi);
     }
 }

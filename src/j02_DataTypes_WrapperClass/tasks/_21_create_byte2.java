@@ -9,7 +9,8 @@ public class _21_create_byte2 {
 
         //Kodu aşağıya yazınız.
 
-
+byte r=-4;
+        System.out.println(r);
 
     }
 }

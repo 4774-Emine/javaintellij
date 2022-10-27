@@ -9,7 +9,8 @@ public class _02_create_int1 {
 
         // Kodu aşağıya yazınız.
 
-
+int i=15;
+        System.out.println(i);
 
     }
 }
