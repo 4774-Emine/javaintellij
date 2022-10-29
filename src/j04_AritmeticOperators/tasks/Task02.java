@@ -16,7 +16,7 @@ public class Task02 {
 			1x9=9
 			1x10=10
 		 */
-		for (int i = 1; i <=10 ; i++) {
+	/*	for (int i = 1; i <=10 ; i++) {
 			for (int j = 1; j <=10 ; j++) {
 
 
@@ -24,8 +24,11 @@ public class Task02 {
 			}
 			System.out.println(                         );
 		}
+*/
+		for (int i = 1; i <= 10; i++) {
+			System.out.println(1 + "*"+ i +"="+(1*i));
 
-
+		}
 
 
 

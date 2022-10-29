@@ -13,7 +13,15 @@ public class Task05 {
      */
 
     public static void main(String[] args) {
-
+Scanner sc=new Scanner(System.in);
+        System.out.println("Lütfen  saat giriniz: ");
+        int saat=sc.nextInt();
+        System.out.println("Dakika giriniz: ");
+        int dakika=sc.nextInt();
+        System.out.println("saniye giriniz: ");
+        int saniye=sc.nextInt();
+        int topsaniye=(saat*3600)+(dakika*60)+saniye;
+        System.out.println("Toplam saniye= "+ topsaniye);
 
     }
 

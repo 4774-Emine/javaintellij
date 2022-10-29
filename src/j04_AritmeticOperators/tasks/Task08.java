@@ -10,8 +10,26 @@ public class Task08 {
      * 1 dk   = 60 saniye
      *
      */
+  /*
 
-    public static void main(String[] args) {
+
+   */
+    public static void main(String[] args){
+
+Scanner sc=new Scanner (System.in);
+System.out.println("saniye giriniz: ");
+int saniye=sc.nextInt();
+
+int sa=saniye/3600;
+int sn=saniye-(sa*3600);
+int dk=(saniye/60);
+sn=saniye-(dk*60);
+        System.out.println(sa+"saat\n"+dk+"dakika\n"+sn+"saniye");
+
+
+
+
+
 
     }
 }

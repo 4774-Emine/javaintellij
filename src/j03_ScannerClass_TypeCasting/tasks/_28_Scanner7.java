@@ -11,9 +11,18 @@ public class _28_Scanner7 {
               Varsa True , yoksa False olarak  konsoldan cevap veriniz.
               Boolean'ı yazdırınız.   */
 
-       /* int num=5;
-        System.out.println(num<0);*/
 
+
+Scanner sc=new Scanner(System.in);
+        System.out.println("Bir banka hesabınız var mı:");
+        boolean cvp=sc.nextBoolean();
+        boolean var=true; System.out.println("true");
+if(cvp==var){
+
+
+}else{
+    System.out.println("false");
+}
 
     }
 }
