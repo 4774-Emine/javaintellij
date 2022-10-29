@@ -1,4 +1,4 @@
-package j23_Varargs_StringBuilder.Varargs;
+package j16_ArrayList.j23_Varargs_StringBuilder.Varargs;
 
 public class Task02 {
     public static void main(String[] args) {
@@ -40,6 +40,4 @@ Muharrem bey cözum :)
     }
 
  */
-
-
 }

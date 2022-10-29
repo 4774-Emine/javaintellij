@@ -1,4 +1,4 @@
-package j23_Varargs_StringBuilder.Varargs;
+package j16_ArrayList.j23_Varargs_StringBuilder.Varargs;
 
 public class Task01 {
     public static void main(String[] args) {
@@ -32,4 +32,9 @@ public class Task01 {
 
 
     }
+
+
+
+
+
 }
