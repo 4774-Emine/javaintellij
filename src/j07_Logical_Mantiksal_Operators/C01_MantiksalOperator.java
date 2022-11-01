@@ -29,7 +29,7 @@ public class C01_MantiksalOperator {
         int a=3;
         int c=7;
 
-        System.out.println(b1&(a<c));
+       System.out.println(b1&(a<c));
 
         System.out.println(b1&&(a>c));
 

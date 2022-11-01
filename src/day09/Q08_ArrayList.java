@@ -18,6 +18,5 @@ public class Q08_ArrayList {
 
          */
 
-
     }
 }

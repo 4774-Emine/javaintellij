@@ -16,27 +16,28 @@ public class Q10_ArrayList {
                   Enter a letter :  a
                   [H, G, E, A]
         */
+     public static void main(String[] args) {
+         List<String> list = new ArrayList<>();
+         
+         list.add("H");
+         list.add("G");
+         list.add("E");
+         System.out.println("list = " + list);
 
-    public static void main(String[] args) {
 
-     List <String>list= new ArrayList<>();
+         Scanner input = new Scanner(System.in);
+
+         System.out.println("bir harf girinz :");
+         String letter = input.next().trim().substring(0,1).toUpperCase();
+
+         if(list.contains(letter)){
+             list.set(list.indexOf(letter), "Got it" );
+         }else
+             list.add(letter);
 
 
-        list.add("H");
-        list.add("G");
-        list.add("E");
-        System.out.println("list = " + list);
-        Scanner input = new Scanner(System.in);
-        System.out.println("bir harf girinz :");
-        String letter = input.next().trim().substring(0,1).toUpperCase();
-        if(list.contains(letter)){
-            list.set(list.indexOf(letter), "Got it" );
-        }else
-            list.add(letter);
-        System.out.println("list = " + list);
+         System.out.println("list = " + list);
+     }
+
+
     }
-
-    }
-
-
-

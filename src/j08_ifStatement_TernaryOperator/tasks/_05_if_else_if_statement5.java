@@ -12,7 +12,13 @@ public class _05_if_else_if_statement5 {
         Aksi halde (else) "I love java" yazdırın. */
 
 
-
+double x=90.25;
+double y=90.25;
+if(x>y){
+    System.out.println("Hello World");
+}else if(x<y){
+    System.out.println("Not Hello World");
+}else System.out.println("I love java");
 
     }
 }

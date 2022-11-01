@@ -11,6 +11,11 @@ public class _04_if_else_if_statement4 {
         Eğer double1, double2'dan küçük ise "double 1 is smaller than double 2" yazdırınız. */
 
 
+double double1=542.23;
+double double2=231.25;
+if(double1>double2){
+    System.out.println("double 1 is greater than double 2");
+}else System.out.println("double 1 is smaller than double 2");
 
 
     }

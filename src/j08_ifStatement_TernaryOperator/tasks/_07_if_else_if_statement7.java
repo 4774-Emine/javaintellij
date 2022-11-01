@@ -11,12 +11,14 @@ public class _07_if_else_if_statement7 {
      Eğer, int number ikiye bölündüğünde geri kalanı 0'a eşit değil ise "number is a ODD number" yazdırın.
 */
         Scanner scan = new Scanner(System.in);
-
+        System.out.println("Lütfen bir sayı giriniz");
         int number = scan.nextInt();
 
         //Kodu aşağıya yazınız. BU SATIRIN YUKARISINI DEĞİŞTİRMEYİNİZ.
 
+        if (number % 2 == 0) {
+            System.out.println("number is EVEN number");
 
-
+        } else System.out.println("number is a ODD number");
     }
 }

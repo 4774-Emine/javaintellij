@@ -14,7 +14,7 @@ public class _09_if_else_if_statement_with_logic_operators {
         Not: Uzunluk derken ingilizcedeki "length" yani karakter sayısından bahsediliyor.  */
 
         Scanner scan = new Scanner(System.in);
-
+        System.out.println("lütfen bir kelime giriniz: ");
         String str = scan.nextLine();
 
         //Kodu aşağıya yazınız. BU SATIRIN YUKARISINI DEĞİŞTİRMEYİNİZ.
