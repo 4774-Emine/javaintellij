@@ -1,10 +1,11 @@
 package j25_Encapsulation.task03;
+
 /* Task->
-   Bmı classfields -> name, age, weight,height: encapsulated
-   getBMI() method -> bmi=weight/(height*height) returb type olmalı
-   getStatus() method -> bmi 18.5 ten kucukse zayif, 25 ten kucukse normal, 30 dan kucukse kilolu, 30 ustu obez return type
-   runner class obj ile dataları print eden code create ediniz
-  */
+     Bmı class fields -> name, age, weight,height: encapsulated
+     getBMI() method -> bmi=weight/(height*height) return type olmalı
+     getStatus() method -> bmi 18.5 ten kucukse zayif, 25 ten kucukse normal, 30 dan kucukse kilolu, 30 ustu obez return type
+     runner class obj ile dataları print eden code create ediniz
+     */
 public class BMI {
 
     private String name;
@@ -35,6 +36,7 @@ public class BMI {
 
         return bmi;
     }
+
 
     public String getName() {
         return name;
@@ -72,6 +74,7 @@ public class BMI {
 class Runner {//inner class
 
     public static void main(String[] args) {//main meth bası
+
         BMI obj = new BMI("Muharrem bey", 46, 54, 1.63);
         System.out.println("BMI :"+ obj.getName()+" "+obj.getStatus()+" "+obj.getBMI());
 

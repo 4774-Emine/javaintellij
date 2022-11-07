@@ -1,30 +1,30 @@
 package j25_Encapsulation.task04;
 
+
 import java.util.Scanner;
 
-public class MainAna {//Main yani ana class
+public class MainAna {//Main ->Ana class
 
+    /*
+        Burada iki adet class vardır. Biri Main, diğeri ise student ,
+        student classı içinde;
+        String name(isim) ve int age(yaş)  variables(değişkenler) encapsulated ediniz.
+
+        Main classın içinde;
+        girilen değerleri aşagıdaki gibi print eden code create ediniz
+        Örnek:
+        age 12'dir.
+        name Steven'dır.
+
+        name(isim) olarak;
+        "Student name is Steven"
+        ve
+        age(yaş) olarak da;
+        "He is 12 years old"
+
+
+     */
     public static void main(String[] args) {
-
-
-/*
-    Burada iki adet class vardır. Biri Main, diğeri ise student ,
-    student classı içinde;
-    String name(isim) ve int age(yaş)  variables(değişkenler) encapsulated ediniz.
-
-    Main classın içinde;
-    girilen değerleri aşagıdaki gibi print eden code create ediniz
-    Örnek:
-    age 12'dir.
-    name Steven'dır.
-
-    name(isim) olarak;
-    "Student name is Steven"
-    ve
-    age(yaş) olarak da;
-    "He is 12 years old"
-*/
-
         // girilen değerleri...
         Scanner sc = new Scanner(System.in);
         System.out.print("agam adını giresen : ");
@@ -63,12 +63,7 @@ class Student {//Student Class-> inner Class
 
     public void setAge(int age) {
         this.age = age;
-
-
-
-
     }
-
 }
 
 
