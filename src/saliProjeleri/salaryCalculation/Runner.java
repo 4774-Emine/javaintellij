@@ -1,4 +1,4 @@
-package salaryCalculation;
+package saliProjeleri.salaryCalculation;
 
 public class Runner {
 
