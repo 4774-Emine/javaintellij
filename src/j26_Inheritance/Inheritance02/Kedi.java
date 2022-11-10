@@ -14,12 +14,18 @@ public class Kedi extends Mammal {//Mammal parent class Mammal child class-torun
         System.out.println(super.c);
         System.out.println("Agam ahan da kedi p'licons...");
     }
-
     int c=2;
     int d=5;
-
-    @Override
+    @Override//@Override notasyonu overridden method ile overriding method'u ilişkilendirir
     public void mC() {//Mammal parent Den ezen method
         System.out.println(" mC - > Kedi  class meth call.");
+    }
+
+    @Override
+    public String toString() {
+        return "Kedi{" +
+                "c=" + c +
+                ", d=" + d +
+                "} " + super.toString();
     }
 }// Class sonu

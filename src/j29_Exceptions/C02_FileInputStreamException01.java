@@ -1,8 +1,7 @@
 package j29_Exceptions;
 
-
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+
 import java.io.IOException;
 
 public class C02_FileInputStreamException01 {
@@ -29,40 +28,24 @@ public class C02_FileInputStreamException01 {
     public static void main(String[] args) throws IOException {//Hz.Nuh IO işlemleri en parent class exception
         // public static void main(String[] args) throws FileNotFoundException { //read() method import öncesi child exception
 
-        FileInputStream  fis =new FileInputStream("/Users/yeni/IdeaProjects/javaLearn/src/j29_Exceptions/ebikGabık");
+        FileInputStream fis = new FileInputStream("/Users/yeni/IdeaProjects/javaLearn/src/j29_Exceptions/ebikGabı");
         //ilgili dosyaya ulaşmak için fis obj tanımlandı parametre olarak ulaşılacak dosya yolu(path) girildi
         //FileNotFoundException-> adres yanlışşsa controlu
 
+        /*
+        Eğer bir method'da Checked (CTE riski olan excp.) exception varsa method signature(mnethod name'den sonraki bölüm) hata uyarısı altı kırmızı çizgi verir
+        komutun derlenmesine izin vermez ve kod üzerine gelidiğimde Add...  exception handle etme tavsiye eder otamatih throws excp eklenir.
+        Bu şekilde methodu call eden komutlat try-catch alınması garanti edilmiş olur.
+         */
+
         int k;
-        while ((k=fis.read())!=-1){//IOException -> evde yoksa controlu
-            System.out.print((char)k);//k int  ascci olan file değeri char ici casting-> type dönüşümü
+        while ((k = fis.read()) != -1) {//IOException -> evde yoksa controlu
+            System.out.print((char) k);//k int  ascci olan file değeri char ici casting-> type dönüşümü
 
         }
 
-
+        System.out.println("agam sorun handle edildi DEWAMKEEE :)");
 
 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

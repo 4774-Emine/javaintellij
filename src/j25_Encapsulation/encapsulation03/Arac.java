@@ -64,13 +64,13 @@ public class Arac {
         return yıl;
     }
 
-
     @Override
     public String toString() {
-        return "agam tekere daş değmesin :)" +
+        return "Arac{" +
                 "model='" + model + '\'' +
                 ", renk='" + renk + '\'' +
                 ", motor=" + motor +
-                ", yıl=" + yıl;
+                ", yıl=" + yıl +
+                '}';
     }
 }

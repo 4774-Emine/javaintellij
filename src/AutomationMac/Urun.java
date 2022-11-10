@@ -2,17 +2,18 @@ package AutomationMac;
 
 public class Urun {
 
-         /*
-         kraker=2.5;
-         cips=2.2;
-         cocaCola=2.2;
-         fanta=2.0;
-         su=1.0;
-         cay=1.5;
-         filtreKahve=1.99;
-         productNum;
-         price;
-          */
+
+/*
+kraker=2.5;
+cips=2.2;
+cocaCola=2.2;
+fanta=2.0;
+su=1.0;
+cay=1.5;
+filtreKahve=1.99;
+productNum;
+price;
+ */
 
     private double kraker = 2.5;
     private double cips = 2.2;
@@ -106,13 +107,12 @@ public class Urun {
                 ",\nfanta=₺" + fanta +
                 ",\nsu=₺" + su +
                 ",\ncay=₺" + cay +
-                ",\nfiltreKahve=₺" + filtreKahve;
+                ",\nfiltreKahve=₺" + filtreKahve
+                ;
     }
 
+
 }
-
-
-
 
 
 

@@ -16,7 +16,7 @@ public class Runner {
 	*/
     public static void main(String[] args) {
 
-       Hayvancık hyvn = new Hayvancık();
+        Hayvancık hyvn = new Hayvancık();
         hyvn.hareket();
         hyvn.içme();
         hyvn.yeme();
@@ -58,9 +58,5 @@ public class Runner {
         ky.içme();
         ky.dogum();
         ky.sutBeslenme();
-
-
     }
-
-
 }

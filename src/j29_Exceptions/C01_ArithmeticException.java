@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class C01_ArithmeticException {
     public static void main(String[] args) {
-
-
         //  ArithmeticException -> Matematiksei işlemlerde oluşan RTE Exception'dur
         String str = "";
         // str.charAt(2);//RTE->StringIndexOutOfBoundsException
@@ -35,23 +33,23 @@ public class C01_ArithmeticException {
             System.out.println("agam try block'tan selamlar :) ");
 
         }
-        catch (ArithmeticException falanFilan){//child exception parent exception(Exception ebikGabık)
-            System.out.println("agam bolmede bolen 0 olamaz :( "+falanFilan.getMessage());/// by zero->Exception olustugunda sadece hata mesajı print etmek için getMesage() kullanılır
-            falanFilan.printStackTrace();//olusan Exception tum detay bilgisi print etmek için kullanılır
-            System.out.println("agam cırak catch'den selamlar :) ");
-        }
+       catch (ArithmeticException falanFilan){//child exception parent exception(Exception ebikGabık)
+           System.out.println("agam bolmede bolen 0 olamaz :( "+falanFilan.getMessage());/// by zero->Exception olustugunda sadece hata mesajı print etmek için getMesage() kullanılır
+          falanFilan.printStackTrace();//olusan Exception tum detay bilgisi print etmek için kullanılır
+           System.out.println("agam cırak catch'den selamlar :) ");
+       }
         catch (ArrayIndexOutOfBoundsException arrayExc){
             System.out.println("Agam arrayda olmayan eleman istirsen :) ");
         }
 
        catch (Exception ebikGabık) {//Exception Class tum exceptionların Hz Ademi parent class->bad practice
-            // hata yakalndıgında yapılacak aksiyonların oldugu block
+           // hata yakalandıgında yapılacak aksiyonların oldugu block
 
-            //Exception-> olusan hata Data type
-            //ebikGabık-> java'nın olusan exception'a atayacagı obj name best parctice:e
-            System.out.println("agam nişledingg 0 hiç böler mi :( ");
-            System.out.println("agam usta catch block'tan selamlar :) ");
-        }
+           //Exception-> olusan hata Data type
+           //ebikGabık-> java'nın olusan exception'a atayacagı obj name best parctice:e
+           System.out.println("agam nişledingg 0 hiç böler mi :( ");
+           System.out.println("agam usta catch block'tan selamlar :) ");
+       }
         finally {//catch block'lardan sonra istenirse finally block kullanılabilir
             /*
             try - catch içinde yapılna işlemlerden sonra mutlaka çalışması gerekn block vatsa finally tanımlanır.
@@ -68,28 +66,3 @@ public class C01_ArithmeticException {
         System.out.println("Agam sorun handle  DEWAMKEEE :) ");//pr sonuna kadar çalıştı mesaj
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
