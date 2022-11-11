@@ -19,5 +19,11 @@ public class C08_DateTimeException {
         }
 
         System.out.println("agam sorun handle edildi DEWAMKEEE :)");//bu kod çalışmıssa pr sorunsuz kırılmadan run olmuştur
+
+
+
+
+
+
     }
 }

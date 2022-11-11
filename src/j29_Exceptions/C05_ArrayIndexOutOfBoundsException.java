@@ -2,7 +2,7 @@ package j29_Exceptions;
 
 public class C05_ArrayIndexOutOfBoundsException {
     public static void main(String[] args) {
-        // ArrayIndexOutOfBoundsException -> array'lerde olomayan bir index elelmanı ile işlem yapıldığında oluşan RTE exception.
+        // ArrayIndexOutOfBoundsException -> array'lerde olmayan bir index elemanı ile işlem yapıldığında oluşan RTE exception.
         int arr[] = {24, 27, 38, 41, 54};
         System.out.println("arr[0] = " + arr[0]);//24
 
@@ -25,5 +25,8 @@ public class C05_ArrayIndexOutOfBoundsException {
         }
 
         System.out.println("agam sorun handle edildi DEWAMKEEE :)");//bu kod çalışmıssa pr sorunsuz kırılmadan run olmuştur
+
+
+
     }
 }

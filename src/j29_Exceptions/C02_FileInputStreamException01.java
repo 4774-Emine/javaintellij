@@ -2,6 +2,7 @@ package j29_Exceptions;
 
 import java.io.FileInputStream;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class C02_FileInputStreamException01 {
@@ -32,10 +33,11 @@ public class C02_FileInputStreamException01 {
         //ilgili dosyaya ulaşmak için fis obj tanımlandı parametre olarak ulaşılacak dosya yolu(path) girildi
         //FileNotFoundException-> adres yanlışşsa controlu
 
+
         /*
         Eğer bir method'da Checked (CTE riski olan excp.) exception varsa method signature(mnethod name'den sonraki bölüm) hata uyarısı altı kırmızı çizgi verir
-        komutun derlenmesine izin vermez ve kod üzerine gelidiğimde Add...  exception handle etme tavsiye eder otamatih throws excp eklenir.
-        Bu şekilde methodu call eden komutlat try-catch alınması garanti edilmiş olur.
+        komutun derlenmesine izin vermez ve kod üzerine gelidiğimde Add...  exception handle etme tavsiye eder otamatik  throws excp eklenir.
+        Bu şekilde methodu call eden komutlar try-catch'e alınması garanti edilmiş olur.
          */
 
         int k;

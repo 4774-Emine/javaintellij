@@ -1,12 +1,10 @@
 package j29_Exceptions;
 
-import java.util.Objects;
-
 public class C03_ClassCastException {
     public static void main(String[] args) {
-        // ClassCastException -> Biribirne dönüştürülemeyen data type'lar biribirine dönüştürüldüğünde oluşan RTE Exception dur
+        // ClassCastException -> Biribirine dönüştürülemeyen data type'lar birbirine dönüştürüldüğünde oluşan RTE Exception dur--->kod çalışınca anlaşılır
 
-        Object obj = "javaCAN'lara selam olsun";
+       Object obj = "javaCAN'lara selam olsun";
         String str = (String) obj;//object data type String data type casting yapılarak atandı
         System.out.println("str = " + str);// javaCAN'lara selam olsun
 
@@ -26,5 +24,8 @@ public class C03_ClassCastException {
             System.out.println("agam integer object hiç Stringe çevrilir mi :( ");
         }
         System.out.println("agam sorun handle edildi DEWAMKEEE :)");//bu kod çalışmıssa pr sorunsuz kırılmadan run olmuştur
+
+
+
     }
 }
