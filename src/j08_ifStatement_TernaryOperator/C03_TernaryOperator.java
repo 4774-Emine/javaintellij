@@ -22,7 +22,6 @@ public class C03_TernaryOperator {
         //Condition   ?  Condition dogru ise uygulanacak kod   :   Condition yanlis ise uygulanacak kod
         String sonuc =     a>0      ?           "Pozitif"                    :            "Pozitif degil";
         System.out.println(sonuc);
-
         //Example 2: Iki sayidan kucuk olani secen kodu yaziniz
         int b = 23;
         int c = 23;
@@ -34,6 +33,7 @@ public class C03_TernaryOperator {
         //           Negatif sayilarin mutlak degeri -1 ile carpilmis halleridir.
         int d = 0;
         int abs = d<0 ? -1*d : d;
+
         System.out.println(abs);
 
         //Example 4: Iki tane sayi ayni isaretli ise bu sayilari carpiniz, farkli isaretli ise "Islem yapamam" mesaji veriniz

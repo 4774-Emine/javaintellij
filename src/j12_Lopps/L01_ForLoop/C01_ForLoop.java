@@ -45,8 +45,7 @@ public class C01_ForLoop {
         }
         System.out.println("agam bumetni okuduysan yukarıdaki for çalışmadı");
         // durmayan sonsuz loop
-        for (int i = 0; i >=0 ; i++) {//bu for çuğarayı cüpiterden yakana kadar çalışır:)
-                                        // durduran aşk olsun
+        for (int i = 0; i >=0 ; i++) {//bu for çuğarayı cüpiterden yakana kadar çalışır:)                              // durduran aşk olsun
             System.out.println("selam");
         }
     }

@@ -2,7 +2,7 @@ package j29_Exceptions;
 
 public class C06_NumberFormatException {
     public static void main(String[] args) {
-        // NumberFormatException -> Sayi formatında olmayan bir datayı parseInt() method runn ederek ınteger'e cevrildiğinde oluşan RTE exception
+        // NumberFormatException -> Sayi formatın olmayan bir datayı parseInt() method runn ederek ınteger'e cevirildiğinde oluşan RTE exception
         // java'da String içinde ki rakam karakterler parseInt() method ile ınt değere atanabilir
 
         String str = "1453";
@@ -34,9 +34,5 @@ public class C06_NumberFormatException {
         }
 
         System.out.println("agam sorun handle edildi DEWAMKEEE :)");//bu kod çalışmıssa pr sorunsuz kırılmadan run olmuştur
-
-
-
-
     }
 }

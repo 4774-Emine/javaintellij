@@ -4,7 +4,7 @@ public class C04_NullPointerException {
 
     public static void main(String[] args) {
         // NullPointerException -> null ataması yapılan bir String'de length() method run edildiğnde oluşan RTE exception
-       String str = "";
+        String str = "";
         System.out.println("str.length() = " + str.length());//0
 
         String str1 = null;
@@ -27,6 +27,5 @@ public class C04_NullPointerException {
         }
 
         System.out.println("agam sorun handle edildi DEWAMKEEE :)");//bu kod çalışmıssa pr sorunsuz kırılmadan run olmuştur
-
     }
 }

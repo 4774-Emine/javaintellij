@@ -60,5 +60,7 @@ public class Task01 {
         System.out.println("Ortalama : " + ortalama);
         if (ortalama >= 70) System.out.println("BAŞARILI...");
         else System.out.println("BAŞARISIZ...");
+
+
     }
 }

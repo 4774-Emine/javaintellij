@@ -7,7 +7,7 @@ public abstract class Sekil {
         setName(name);
     }
 
-    public Sekil() {
+    public Sekil() {//p siz parent conctractor
     }
 
     public String getName() {
@@ -22,11 +22,18 @@ public abstract class Sekil {
 
     public abstract double cevre();
 
+    //public void cizz(){
+   //     System.out.println(this.name+ "çizildi");}-->void method olduğu için to stringe ekleyemedik
+    public String cizz(){
+        return this.name+ "çizildi";
+    }
+
     @Override
-    public String toString() {
+    public String toString() {//obj value leri print eder
         return "ismi =" + this.name +
-                "\n Alan = " + this.alan() +
-                "\n Cevre = " + this.cevre();
+                "\n Sekil Alan = " + this.alan() +//method call
+                "\n Sekil Cevre = " + this.cevre()+
+        "\n sekil"+ this.cizz();// method call
     }
 
     public void ciz() {

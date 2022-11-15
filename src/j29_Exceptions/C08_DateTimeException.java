@@ -11,6 +11,7 @@ public class C08_DateTimeException {
         try {
             LocalDate date=LocalDate.of(2022,11,30);
 
+
             System.out.println("agam try block da bu yazıyı okuduysan excp fırlatmadı komut sorunsuz ");
         } catch (DateTimeException e) {
             System.out.println("agam ahan da hatan :"+ e.getMessage());
@@ -19,11 +20,6 @@ public class C08_DateTimeException {
         }
 
         System.out.println("agam sorun handle edildi DEWAMKEEE :)");//bu kod çalışmıssa pr sorunsuz kırılmadan run olmuştur
-
-
-
-
-
-
+        
     }
 }

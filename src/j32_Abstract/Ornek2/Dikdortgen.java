@@ -4,7 +4,7 @@ public class Dikdortgen extends Sekil {
     private double uzunluk;
     private double genislik;
 
-    public Dikdortgen(double uzunluk, double genislik) {
+    public Dikdortgen(double uzunluk, double genislik) {//full parametreli cons.
         this.uzunluk = uzunluk;
         this.genislik = genislik;
     }

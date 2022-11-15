@@ -1,7 +1,5 @@
 package j01_Variables;
 
-import java.util.Scanner;
-
 public class HelloWorld {
 
     //main method icinde kullanacaginiz hersey "static" olmalidir.
@@ -47,14 +45,7 @@ public class HelloWorld {
         // ii)System.out.print() ==> Satirbasi yapmaz
 
 
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Betülcüm hadi bana yaşını söyle");
-        int yas=sc.nextInt();
 
-
-        if(yas<=8){
-            System.out.println("Amanınn 8 yaşında mısın sen");
-        }else System.out.println("ne ara büyüdün kız");
     }
 
 

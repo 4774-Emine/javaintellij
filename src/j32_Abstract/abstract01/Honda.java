@@ -5,7 +5,7 @@ public abstract class Honda {//parent abstract class
     public abstract void motor();
 
      void sunrooff(){
-         System.out.println("agam keyfini bilirsennn  ama subroof extra ücret :)");
+         System.out.println("agam keyfini bilirsennn  ama sunroof extra ücret :)");
      }
 // abs  class'da variable tanımlanabilir mi -> evet
     String name="Gülsüm team lead";
