@@ -29,7 +29,7 @@ public class HelloWorld {
 //TASK:  ad soyad yas memelket ve meslek print ediniz(console yazdırınız)
       /*  System.out.print("adım soyadım : haluk bilgin");
         System.out.println(" yaşım : 48");
-        System.out.println("memeleketim denizli");
+        System.out.println("memleketim denizli");
         System.out.println("mesleğim  : java developer");*/
 
         /*

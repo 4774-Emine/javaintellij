@@ -18,6 +18,7 @@ public class C03_TernaryOperator {
         }else{
             System.out.println("Pozitif degil");
         }
+
         //2.Yol: ternary
         //Condition   ?  Condition dogru ise uygulanacak kod   :   Condition yanlis ise uygulanacak kod
         String sonuc =     a>0      ?           "Pozitif"                    :            "Pozitif degil";
@@ -77,6 +78,9 @@ public class C03_TernaryOperator {
 
         System.out.println("   ***   TASK02   ***   ");
         System.out.println(agaSayisi < 0 ? "agam sayı NEGATİF" : "agam sayı nagatif değil");
+
+
+
 
     }
 

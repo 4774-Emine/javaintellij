@@ -17,5 +17,6 @@ public class C08_isEmpty_clear {
         System.out.println("listSehir = " + listSehir);// []
 
         System.out.println("listSehir.isEmpty() = " + listSehir.isEmpty());//true
+
     }
 }

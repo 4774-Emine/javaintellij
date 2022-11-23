@@ -23,5 +23,14 @@ public class C04_Arrays {
         System.out.println("str = " + str);// [3, 39, 63, 72, 84]->ahan da TRICK : arr'yin tum karakterleri String olarak tanımlandı
         System.out.println(str.substring(6));//, 63, 72, 84]
 
+        int rakam[]={1000,2000,8000,9000,7000};  int rakam1[]={39,89,59,68,54};
+        System.out.println("Arrays.equals(rakam,rakam1) = " + Arrays.equals(rakam, rakam1));
+        Arrays.sort(rakam);
+        System.out.println("Arrays.toString(rakam) = " + Arrays.toString(rakam));
+        Arrays.sort(rakam1);
+        System.out.println("Arrays.toString(rakam1) = " + Arrays.toString(rakam1));
+        System.out.println("Arrays.equals(rakam,rakam1) = " + Arrays.equals(rakam, rakam1));
+
+
     }
 }

@@ -1,6 +1,5 @@
 package j15_Arrays;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class C01_Arrays {
@@ -9,7 +8,7 @@ public class C01_Arrays {
         Array (Dizi): Java'da birden fazla variable store etmek icin kullanilan objelerden biridir
         Array olusturulurken 2 seyi declare etmeliyiz:
         1- data type (Bir array'in icerisinde sadece ayni data tipinden elemanlar omalıdır.)
-        2- uzunluk (uzunluk array'in icerisne konul max eleman sayisini belirtir ve bundan fazlasini koymak istersek RTE verir)
+        2- uzunluk (uzunluk array'in icerisne konulan max eleman sayisini belirtir ve bundan fazlasini koymak istersek RTE verir)
         array= tepsiye benzer..
         Array'de primitive datalar veya non-primitive datalarin referanslari store edilebilir
          isimler array'inin icinde isim degerleri degil, isimlerin referanslari saklanır
@@ -30,7 +29,8 @@ public class C01_Arrays {
         sayıArr[0] = 35;
         sayıArr[1] = 43;
         sayıArr[3] = 99;
-        sayıArr[0] = 34;//  0 index array elamanı 34 değeri ile update edildi
+        sayıArr[0] = 34;
+        //  0 index array elamanı 34 değeri ile update edildi
         //array elemanlrı uniqe olmak zorunda değildir tekrarlı array elamnı olabilir.
 
         // Array eleman sayısı boyut değeri...

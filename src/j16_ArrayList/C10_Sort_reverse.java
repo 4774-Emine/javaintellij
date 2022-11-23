@@ -1,6 +1,7 @@
 package j16_ArrayList;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -24,5 +25,15 @@ public class C10_Sort_reverse {
         System.out.println("listUlke = " + listUlke);//ters sıra öncesi->[Alamanya, Amerigonya, Ingiltere, isvec]
         Collections.reverse(listUlke);
         System.out.println("listUlke = " + listUlke);//ters sıra sonrası->[isvec, Ingiltere, Amerigonya, Alamanya]
+
+        ArrayList<Integer> sayi=new ArrayList<>(Arrays.asList(20,30,89,74,66));
+        Collections.sort(sayi);
+        System.out.println(sayi);
+        Collections.reverse(sayi);
+        System.out.println(sayi);
+
+
+
+
     }
 }

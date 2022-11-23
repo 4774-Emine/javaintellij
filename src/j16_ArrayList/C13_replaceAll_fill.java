@@ -15,7 +15,6 @@ public class C13_replaceAll_fill {
         System.out.println("listSayi = " + listSayi);//replace sonrası->[20, 24, 23, 14, 19, 60, 20, 55, 27, 20, 38]
 
 
-
         //fill();-> listte tüm elemanları belirli bir değere update eder.
         Collections.fill(listSayi,33);
         System.out.println("listSayi = " + listSayi);//fill sonrası->[33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33]

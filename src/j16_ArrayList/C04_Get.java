@@ -8,7 +8,8 @@ public class C04_Get {
         //get();-> listte istenen index elemanı return eder (arr[3]->arrr'in 3 .indexdeki elemanı ver)
         ArrayList<String> listSehir = new ArrayList<>(List.of("Münih", "losAngeles", "Londra", "stockholm"));
         System.out.println(listSehir.get(1));//losAngeles
-        //System.out.println(listSehir.get(11));//olmayan index elelmanı RTE verir.
+        System.out.println("listSehir.get(3) = " + listSehir.get(3));
+       // System.out.println(listSehir.get(11));//olmayan index elelmanı RTE verir.
 
 
     }

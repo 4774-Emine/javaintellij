@@ -1,6 +1,5 @@
 package j16_ArrayList;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 

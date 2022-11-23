@@ -43,16 +43,37 @@ ve isDriverLicenceAvailable(Ehliyeti var mı?) = false;
 sonuç 300 olmalıdır.  */
 
         Scanner scan = new Scanner(System.in);
-
+        System.out.println("Hızınızı giriniz");
         int currentSpeed = scan.nextInt();
 
-        boolean isDriverLicenceAvailable = scan.nextBoolean();
 
 //Kodu aşağıya yazınız. BU SATIRIN YUKARISINI DEĞİŞTİRMEYİNİZ.
 
-
-
-
+        if (55 < currentSpeed && currentSpeed < 74) {
+            System.out.println("ehliyetiniz var mı");
+            boolean isDriverLicenceAvailable = scan.nextBoolean();
+            if (isDriverLicenceAvailable == false) {
+                System.out.println("Cezanız:300 $ ");
+            } else System.out.println("Cezanız: 100$");
+        } else if (75 < currentSpeed && currentSpeed < 84) {
+            System.out.println("ehliyetiniz var mı");
+            boolean isDriverLicenceAvailable = scan.nextBoolean();
+            if (isDriverLicenceAvailable == false) {
+                System.out.println("Cezanız:350 $ ");
+            } else System.out.println("Cezanız: 150$");
+        } else if (84 < currentSpeed && currentSpeed < 94) {
+            System.out.println("ehliyetiniz var mı");
+            boolean isDriverLicenceAvailable = scan.nextBoolean();
+            if (isDriverLicenceAvailable == false) {
+                System.out.println("Cezanız:520 $ ");
+            } else System.out.println("Cezanız: 320$");
+        } else if (currentSpeed > 94) {
+            System.out.println("ehliyetiniz var mı:");
+            boolean isDriverLicenceAvailable = scan.nextBoolean();
+            if (isDriverLicenceAvailable == false) {
+                System.out.println("Cezanız:700 $ ");
+            } else System.out.println("Cezanız: 5000$");
+        }else System.out.println("Yolunuza devam edin");
     }
 }
 

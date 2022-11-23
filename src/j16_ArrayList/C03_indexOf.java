@@ -36,12 +36,5 @@ public class C03_indexOf {
 
 
 
-
-
-
-
-
-
-
     }
 }

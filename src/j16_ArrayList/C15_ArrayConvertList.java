@@ -26,6 +26,5 @@ public class C15_ArrayConvertList {
         System.out.println("listJavaTar1 = " + listJavaTar1);//[Akif, Gamze, Musty, SevdeNur, sefil haluk]
 
 
-
     }
 }
