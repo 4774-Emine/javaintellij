@@ -29,17 +29,14 @@ public class C2_MathClassMatrix {
         System.out.println("matrisin boyutunu giriniz");
         int sayi = scanner.nextInt();
 
-        Random random= new Random();
+        Random random = new Random();
         for (int i = 0; i < sayi; i++) { //outer for - satir
             for (int j = 0; j < sayi; j++) { //inner for - sutun
-               // System.out.print((int) (Math.random()*2) + " ");
+                // System.out.print((int) (Math.random()*2) + " ");
                 System.out.print(random.nextInt(2) + " ");
             }
             System.out.println();
         }
-
-
-
 
 
     }
