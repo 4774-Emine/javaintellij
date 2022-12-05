@@ -6,7 +6,6 @@ import java.util.List;
 
 public class C03_map {
     public static void main(String[] args) {
-
         List<Integer> sayi = new ArrayList<>(Arrays.asList(24, 38, 49, 33, 7, 3, 42, 66, 75, 45, 46, 55, 35, 25, 67, 16));
 
         ciftKarePrint(sayi);//576 1444 1764 4356 2116 256
@@ -49,7 +48,9 @@ public class C03_map {
                 stream().//list elelmanlar akısa alındı
                 filter(C01_LambdaExpression::ciftMi).//akısdaki cift elemanlar filtrelendi
 
-                map(Math::sqrt).//akısda cift filtrelene elemanların karekokune update eder
-                forEach(t -> System.out.print(t + " "));//akısda filtrelenmiş cift elelmnalr karsı alınıp işaretlenenakısdan print edildi
+                // map(Math::sqrt).//akısda cift filtrelene elemanların karekokune update eder
+                // forEach(t -> System.out.print(t + " "));//akısda filtrelenmiş cift elelmnalr karsı alınıp işaretlenenakısdan print edildi
+                        map(t -> (int) Math.sqrt(t)).
+                forEach(C01_LambdaExpression::yazdir);
     }
 }

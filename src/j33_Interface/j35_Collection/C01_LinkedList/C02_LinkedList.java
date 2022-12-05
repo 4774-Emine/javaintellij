@@ -1,4 +1,4 @@
-package j35_Collection.C01_LinkedList;
+package j33_Interface.j35_Collection.C01_LinkedList;
 
 import java.util.LinkedList;
 

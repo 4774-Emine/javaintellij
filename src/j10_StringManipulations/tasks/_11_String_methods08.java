@@ -9,7 +9,8 @@ public class _11_String_methods08 {
 
         //Kodu aşağıya yazınız.
 
-
+        String str = "apple";
+        System.out.println("str.contains(\"app\") = " + str.contains("app"));
 
 
     }

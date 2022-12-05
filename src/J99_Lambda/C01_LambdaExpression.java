@@ -6,7 +6,6 @@ import java.util.List;
 
 public class C01_LambdaExpression {
     public static void main(String[] args) {
-
 /*
 	 	1) Lambda "Functional Programming"-->mathod(action) kullanan pr dili.
 	 	   Lambda --> mathod create  etme değil mevcut method'ları(library)secip kullanmaktır...
@@ -45,6 +44,7 @@ public class C01_LambdaExpression {
              yeni bir dizi beceri öğrenmek zorunda kalmadan API sayesinde elektrikli bir arabayı rahatlıkla kullanabilirsiniz.
 
 	 */
+
         List<Integer> sayi = new ArrayList<>(Arrays.asList(24, 38, 49, 33, 7, 3, 42, 66, 75, 45, 46, 55, 35, 25, 67, 16));
 
         printElStructured(sayi);//24 38 49 33 7 3 42 66 75 45 46 55 35 25 67 16
@@ -55,7 +55,8 @@ public class C01_LambdaExpression {
 
         printElFunctional1(sayi);//243849337342667545465535256716
         System.out.println("\n   ***   ");
-        printElFunctional2(sayi);//24 38 49 33 7 3 42 66 75 45 46 55 35 25 67 16
+        printElFunctional2( sayi);//24 38 49 33 7 3 42 66 75 45 46 55 35 25 67 16
+
 
     }//main sonu
 
@@ -66,18 +67,15 @@ public class C01_LambdaExpression {
             System.out.print(w + " ");
         }
     }
-
-
     //Task : "Functional Programming":cincix code kullanarak list elemanlarını aynı satirda aralarında bosluk olacak sekilde print ediniz.
-    public static void printElFunctional(List<Integer> sayi) {//functional programming
+
+
+    public static void printElFunctional(List<Integer> sayi) {//functional pr
 
         sayi.//aksiyona girecek list coll.
                 stream().//List elemanlarını yukarıdan aşağıya akısa alır.
-                forEach((t) -> System.out.print(t + " "));//datanın parametresine göre akısdaki her bir elemanı işleme sokar
+                forEach((t) -> System.out.print(t + " "));//datanın parametresine göre akısdaki her bir elelmanı işleme sokar
     }
-
-
-
     /*
         stream() : datalari yukaridan asagiya akis sekline getirir. Stream bir interface olduğundan dolayı doğrudan nesne almaz.
         forEach() :datanin parametresine gore her bir elemanı isler
@@ -101,10 +99,12 @@ public class C01_LambdaExpression {
 
 
     public static void printElFunctional1(List<Integer> sayi) {//functional pr
+
         sayi.//aksiyona girecek list coll.
-                stream().//List elemanlarını yukardan aşağıya akışa alır
-                forEach(System.out::print);//Method refence->System.out yapısından print method call edildi
-        //Method Kaynağı::->method reference
+                stream().//List elemanlarını yukarıdan aşağıya akısa alır.
+                forEach((System.out::print));//Method refernece->System.out yapısından print meth call edildi
+        //MethodKkaynagı::Method ->meth reference
+
     }
 
     public static void yazdir(int a) {//normal allahın mmethodu tek aksiyonlu->seed method(tohum)->refere edilecek method
@@ -118,18 +118,9 @@ public class C01_LambdaExpression {
         //MethodKaynagı::Method ->meth reference
     }
 
-
-    public static boolean ciftMi(int X){//Refere edilecek seed method
-        return X%2==0;
+    public static boolean ciftMi(int X) {//Refere edilecek  seed method
+        return X%2 == 0;
     }
 
+
 }
-
-
-
-
-
-
-
-
-

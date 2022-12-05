@@ -10,7 +10,8 @@ public class _19_String_methods15 {
 
         //Kodu buraya yazınız.
 
-
+        String str = "Mouse";
+        System.out.println("str.charAt(2) = " + str.charAt(2));
 
 
     }

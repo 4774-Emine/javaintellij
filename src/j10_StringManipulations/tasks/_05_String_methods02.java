@@ -8,7 +8,8 @@ public class _05_String_methods02 {
         Bu dizenin toplam karakter sayısını yazdırın.   */
 
         //Kodu aşağıya yazınız.
-
+        String str = "Sprint planning";
+        System.out.println("str.length() = " + str.length());
 
     }
 }

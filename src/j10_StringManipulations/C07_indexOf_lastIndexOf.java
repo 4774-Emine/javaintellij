@@ -33,6 +33,8 @@ public class C07_indexOf_lastIndexOf {
         System.out.println(isim.lastIndexOf('a'));//11
         System.out.println("34. satır : " + isim.lastIndexOf("fa"));//5
         System.out.println(isim.indexOf("fa"));//5
+
+
      /*
         task
          Girilen cümlenin aşağıdaki durumları sağlayacak code create ediniz

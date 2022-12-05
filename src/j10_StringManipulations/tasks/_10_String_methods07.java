@@ -9,6 +9,7 @@ public class _10_String_methods07 {
 
         //Kodu aşağıya yazınız.
 
-
+        String str = "PADDLE";
+        System.out.println("str.toLowerCase() = " + str.toLowerCase());
     }
 }

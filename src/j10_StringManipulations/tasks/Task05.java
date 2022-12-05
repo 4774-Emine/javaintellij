@@ -24,6 +24,5 @@ public class Task05 {
         System.out.print(" "+ikinciAd.substring(0, 1).toUpperCase() + ikinciAd.substring(1));
         System.out.println(" "+soyad.substring(0, 1).toUpperCase() + soyad.substring(1));
 
-
     }
 }

@@ -1,4 +1,4 @@
-package j35_Collection.j36_Map;
+package j36_Map;
 
 import java.util.HashMap;
 
@@ -13,18 +13,18 @@ public class Task01 {
         map.put("Apple Store", 320);
 // task -> urun fiyatları toplamını hesaplayan code create ediniz..
 
-        int fiyatToplam=0;
+        int fiyatToplam = 0;
 
         // for (Map.Entry<String, Integer> a : map.entrySet()){//["Amazon"=296,"Ebay"=301,..]
         //     fiyatToplam+=a.getValue();
         // }
-        for (Integer w : map.values()){//[296,301,..]
-            fiyatToplam+=w;
+        for (Integer w : map.values()) {//[296,301,..]
+            fiyatToplam += w;
         }
 
-        System.out.println("agama fiyat toplamın : "+fiyatToplam);// 1583
-    }
+        System.out.println("agama fiyat toplamın : " + fiyatToplam);// 1583
 
 
     }
+}
 

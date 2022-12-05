@@ -9,7 +9,8 @@ public class _08_String_methods05 {
 
         //Kodu aşağıya yazınız.
 
-
+        String str = "New Jersey";
+        System.out.println("str.toUpperCase() = " + str.toUpperCase());
 
     }
 

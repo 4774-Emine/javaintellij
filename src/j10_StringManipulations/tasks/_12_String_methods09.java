@@ -8,7 +8,8 @@ public class _12_String_methods09 {
             String'in içinde App olup olmadığını doğrula.  */
 
         //Kodu buraya yazınız.
-
+        String str = "apple";
+        System.out.println("str.contains(\"App\") = " + str.contains("App"));
 
     }
 }

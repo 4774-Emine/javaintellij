@@ -1,4 +1,4 @@
-package j35_Collection;
+package j33_Interface.j35_Collection;
 
 import java.util.Arrays;
 import java.util.LinkedList;

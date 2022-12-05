@@ -10,6 +10,8 @@ public class _14_String_methods11 {
 
         //Kodu aşağıya yazınız.
 
-
+        String str = "apple";
+        String str1 = "apple";
+        System.out.println("str.equalsIgnoreCase(str1) = " + str.equalsIgnoreCase(str1));
     }
 }

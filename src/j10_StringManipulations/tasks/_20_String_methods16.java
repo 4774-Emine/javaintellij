@@ -11,7 +11,8 @@ public class _20_String_methods16 {
         //Kodu buraya yazınız.
 
 
-
+        String s1 = "    Chocolade     ";
+        System.out.println("s1.trim() = " + s1.trim());
 
     }
 }

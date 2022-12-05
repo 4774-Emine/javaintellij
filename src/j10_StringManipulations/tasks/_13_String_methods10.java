@@ -9,6 +9,8 @@ public class _13_String_methods10 {
 
         //Kodu aşağıya yazınız.
 
-
+        String str = "orange";
+        String str1 = "Apple";
+        System.out.println("str.equals(str1) = " + str.equals(str1));
     }
 }

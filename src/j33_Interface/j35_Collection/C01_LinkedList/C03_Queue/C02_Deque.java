@@ -1,4 +1,4 @@
-package j35_Collection.C03_Queue;
+package j33_Interface.j35_Collection.C01_LinkedList.C03_Queue;
 
 import java.util.Arrays;
 import java.util.Deque;

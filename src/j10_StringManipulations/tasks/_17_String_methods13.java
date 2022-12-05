@@ -9,7 +9,8 @@ public class _17_String_methods13 {
             // Thank you Stringini oluşturun.  */
 
         //Kodu aşağıya yazınız.
-
+        String str = "Thank you";
+        System.out.println("str.indexOf('y') = " + str.indexOf('y'));
 
     }
 }

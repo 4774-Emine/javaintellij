@@ -18,8 +18,8 @@ public class C01_Concatenation {
         name = meslek.concat(name);
         System.out.println("name = " + name);//name =  Qa tester  Nur
 
-        System.out.println( name.concat(true + " :) "));// Qa tester  Nurtrue :)
-        System.out.println( name.concat(100+ " :) "));// Qa tester  Nur 100 :)
+        System.out.println(name.concat(true + " :) "));// Qa tester  Nurtrue :)
+        System.out.println(name.concat(100 + " :) "));// Qa tester  Nur 100 :)
 
         // TRICK-> concat methodu parametre olarak string type harici tüm dataları srtinge cevirip concat eder
 

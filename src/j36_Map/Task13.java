@@ -1,4 +1,4 @@
-package j35_Collection.j36_Map;
+package j36_Map;
 
 import java.util.Arrays;
 import java.util.HashMap;

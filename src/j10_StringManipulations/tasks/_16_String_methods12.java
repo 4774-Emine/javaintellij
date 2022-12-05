@@ -9,7 +9,8 @@ public class _16_String_methods12 {
 
         //Kodu aşağıya yazınız.
 
-        ;
+        String str = "Florida";
+        System.out.println("str.indexOf(\"o\") = " + str.indexOf("o"));
 
     }
 }

@@ -9,7 +9,8 @@ public class _04_String_methods01 {
 
         //Kodu aşağıya yazınız.
 
-
+        String str = "I love java";
+        System.out.println("str.length() = " + str.length());
 
 
     }

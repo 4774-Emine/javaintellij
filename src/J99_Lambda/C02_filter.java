@@ -50,9 +50,16 @@ public class C02_filter {
         sayi.
                 stream().//list eemanları akısa alındı
                 filter(C01_LambdaExpression::ciftMi).//akısdakı list elemanları çift olma sartına göre filtrelendi:akısdan çıkarıldı->meth ref. best practice
-                filter(t -> t < 35  /*&& t % 2 == 0*/).forEach(C01_LambdaExpression::yazdir);//C01 Class'daki yazdır method refere(call) edildi
+                filter(t -> t < 35  /*&& t % 2 == 0*/).
+                forEach(C01_LambdaExpression::yazdir);//C01 Class'daki yazdır method refere(call) edildi
 
     }
+//Task : "Functional Programming":cincix code kullanarak list elemanlarının 34 den buyuk YADA  çiftlerini  aynı satirda aralarında bosluk olacak sekilde print ediniz.
+public static void printCiftElFunctional3(List<Integer> sayi) {//amele method
+    sayi.
+            stream().//list eemanları akısa alındı
+            filter(t ->t%2==0 || t > 34).//akısdakı list elemanları çift olma sartına göre filtrelendi:akısdan çıkarıldı->meth ref. best practice
+            forEach(C01_LambdaExpression::yazdir);//C01 Class'daki yazdır method refere(call) edildi
 
-
+}
 }

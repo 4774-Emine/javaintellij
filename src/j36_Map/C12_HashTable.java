@@ -1,4 +1,4 @@
-package j35_Collection.j36_Map;
+package j36_Map;
 
 import java.util.Hashtable;
 
@@ -7,7 +7,7 @@ public class C12_HashTable {
 
         /*
         HashTable->
-        HashMap'e kullanılan tüm methotlar hashtable obj ile decall edilir.
+        HashMap'e kullanılan tüm methotlar hashtable obj ile de call edilir.
         1-HashMap ve TreeMap thread-safe ve synchronized olmadğı için Map'ler arasında thread-safe ve synchronized olan bir map'e
         ihtiyac olduğundan Hashtable kullanılmıştır.
         2-HashTable HashMape göre daha yavaştır.

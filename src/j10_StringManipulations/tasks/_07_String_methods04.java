@@ -9,8 +9,8 @@ public class _07_String_methods04 {
            örn: APPLE > apple  */
 
         //Kodu aşağıya yazınız.
-
-
+        String str = "OraNge";
+        System.out.println("str.toLowerCase() = " + str.toLowerCase());
 
 
     }

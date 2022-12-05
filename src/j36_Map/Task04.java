@@ -1,5 +1,7 @@
-package j35_Collection.j36_Map;
+package j36_Map;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -23,9 +25,30 @@ public class Task04 {
      * */
 
 
-
     public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("birşeyler yazın");
+        String cümle = scan.nextLine();
+
+
+        splitcim(cümle);
 
     }
 
+    private static void splitcim(String cümle) {
+        HashMap<String, Integer> map = new HashMap<>();
+        ArrayList<String> parcalanan = new ArrayList<>(Arrays.asList(cümle.split(" ")));
+        System.out.println(parcalanan);
+        int tekrarsıysı = 1;
+        for (String w : parcalanan) {
+            if (!map.containsKey(w)) {
+                map.put(w, tekrarsıysı);
+            } else if ((map.containsKey(w))) map.put(w, tekrarsıysı++);
+
+        }
+
+        System.out.println(map);
+    }
 }
+

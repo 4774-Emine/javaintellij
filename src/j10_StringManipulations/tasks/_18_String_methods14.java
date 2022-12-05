@@ -10,8 +10,8 @@ public class _18_String_methods14 {
 
         //Kodu aşağıya yazınız.
 
-
-
+        String str = "         Clarus Way         ";
+        System.out.println("str.trim() = " + str.trim());
 
 
     }
