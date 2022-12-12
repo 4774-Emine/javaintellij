@@ -24,9 +24,6 @@ public class Task03 {
         if (!varMi) {
             System.out.println("agam aradıgın sayı MAALESEF :(");
 
-
         }
-
-
     }
 }

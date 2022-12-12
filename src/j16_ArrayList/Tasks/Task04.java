@@ -29,6 +29,5 @@ public class Task04 {
         listIsim.addAll(aOlmayanlistIsim);
         System.out.println("listIsim = " + listIsim);//listIsim = [Veli, Omer]
 
-
     }
 }

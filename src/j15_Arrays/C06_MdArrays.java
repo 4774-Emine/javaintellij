@@ -32,7 +32,7 @@ Dizide tutulacak veri tipleri aynı olmak zorundadır farklı veri tiplerini ayn
 
         //MdArray eleman ekleme...
 
-        arr1[2][4] = 35;//2.kat 4. daire değeri 35 atandı
+         arr1[2][4] = 35;//2.kat 4. daire değeri 35 atandı
         arr1[0][3] = 34;//0. kat 3. daire değeri 34 atandı..
 
         System.out.println(arr1[0][3]);//34

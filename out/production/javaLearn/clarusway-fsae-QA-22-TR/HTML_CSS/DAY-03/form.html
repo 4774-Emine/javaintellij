@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM BURADA</title>
+  </head>
+  <body>
+    <!-- ILK FORMUMU OLUSTURUYORUM -->
+    <form action="">
+      <label for="name">NAME</label>
+      <input
+        type="text"
+        name="name"
+        value=""
+        id="name"
+        placeholder="isim giriniz"
+      />
+      <label for="">PASSWORD</label>
+      <input type="password" name="password" />
+      <label for="">ID</label>
+      <input
+        type="number"
+        name="number"
+        value=""
+        placeholder="10 haneli bir sayi gir"
+      />
+      <label for="">ARAMA</label>
+      <input type="search" name="search" />
+      <label for="">URL</label>
+      <input type="url" name="url" />
+      <label for="">EMAIL</label>
+      <input type="email" name="email" />
+      <label for="">KULLANILMAZ</label>
+      <input type="text" disabled />
+      <!-- FARKLI TURLER -->
+      <hr />
+      <br />
+      <label for="">CHECKBOX</label>
+      <input type="checkbox" name="" id="" />
+
+      <input type="radio" name="radio-secenek" id="evli" value="evli" />
+      <label for="evli">EVLI</label>
+      <input type="radio" name="radio-secenek" id="bekar" value="bekar" />
+      <label for="bekar">BEKAR</label>
+      <input type="radio" name="radio-secenek" id="N" value="N" />
+      <label for="N">Not</label>
+
+      <label for="">DOSYA YUKLE</label>
+      <input type="file" name="" id="" />
+
+      <label for="">TARIH SEC</label>
+      <input type="date" name="" id="" />
+
+      <!-- SELECT DENIYORUM -->
+      <label for="SAYILAR">SECENEKLER</label>
+      <select name="SAYILAR" multiple size="3">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+
+      <!-- OPTGROUP DENIYORUM -->
+      <label for="">OPTGROUP</label>
+      <select name="" id="">
+        <optgroup label="MEYVELER">
+          <option value="ELMA">ELMA</option>
+          <option value="ARMUT">ARMUT</option>
+        </optgroup>
+        <optgroup label="SEBZELER">
+          <option value="DOMATES">DOMATES</option>
+          <option value="SALATALIK">SALATALIK</option>
+        </optgroup>
+      </select>
+
+      <!-- TEXTAREA DENIYORUM -->
+      <label for="yorum">TEXTAREA</label>
+      <textarea
+        name="yorum"
+        id="yorum"
+        cols="10"
+        rows="5"
+        placeholder="yorum yaziniz"
+        required
+      ></textarea>
+
+      <input type="button" value="DUGME" />
+      <input type="submit" value="GONDER" />
+      <input type="reset" value="RESET" />
+    </form>
+  </body>
+</html>

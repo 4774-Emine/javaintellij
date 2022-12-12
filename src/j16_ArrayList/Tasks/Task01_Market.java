@@ -1,6 +1,5 @@
 package j16_ArrayList.Tasks;
 
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -41,7 +40,7 @@ public class Task01_Market {
         while (gun < 7) {//3.ADIM
 
 
-            System.out.println("Adnancım " + gunler.get(gun) + " gününün hasılatını gir : ");
+            System.out.println("Lütfen " + gunler.get(gun) + " gününün hasılatını gir : ");
             double gunkazancı = sc.nextDouble();
 
             gunlukKazanclar.add(gunkazancı);

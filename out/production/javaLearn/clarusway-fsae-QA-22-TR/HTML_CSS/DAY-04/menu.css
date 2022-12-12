@@ -1,0 +1,24 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* font-family: "Zen Dots", cursive; */
+}
+
+.menu-container {
+  text-align: center;
+  width: 100px;
+  background-color: rgb(191, 190, 190);
+}
+
+.aktif {
+  background-color: gray;
+  color: white;
+}
+
+.dekorasyon {
+  text-decoration: line-through;
+}
+.italik {
+  font-style: italic;
+  font-weight: bolder;
+}

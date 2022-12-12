@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClarusWay_InterviewQuestionsJava/ClarusWay_InterviewQuestionsJava.iml" filepath="$PROJECT_DIR$/ClarusWay_InterviewQuestionsJava/ClarusWay_InterviewQuestionsJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Clarus_JavaPracticeFall/Clarus_JavaPracticeFall.iml" filepath="$PROJECT_DIR$/Clarus_JavaPracticeFall/Clarus_JavaPracticeFall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/clarusway-fsae-QA-22-TR.iml" filepath="$PROJECT_DIR$/.idea/clarusway-fsae-QA-22-TR.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,10 +1,6 @@
 package J99_Lambda.lambdaCodeChallenge;
 
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.Arrays;
-import java.util.stream.Stream;
 
 /*
 dosya eklemek icin 2 yol var
