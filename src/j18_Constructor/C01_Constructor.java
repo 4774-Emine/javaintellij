@@ -5,13 +5,14 @@ public class C01_Constructor {
     1- Constructor ismi Class ismi ile aynı olmalı.Büyük harf ile başlamalı.
     2-Constructor create edildiğinde name den sonra (){} mutlaka kullanılmalı.
     3-Eğer parametreli cons. create edildiğinde java default cons. ezer(siler)
-   4-Cons. return type olmaz methoddan ayıran özelliğidir.
-   5-Class oluştuğunda java default cons. kendi create eder.
-
+    4-Cons. return type olmaz methoddan ayıran özelliğidir.
+    5-Class oluştuğunda java default cons. kendi create eder.
+    6-Bir classta birden fazla cons. tanımlanabilir.
      */
-    String str;//inst variable->obj variable
+
+    String str;//inst variable->obj variable->initial edilmemiş
     String selam = "güzel insan";
-    C01_Constructor obj1 = new C01_Constructor();
+ //   C01_Constructor obj1 = new C01_Constructor();
 
     public static void main(String[] args) {
         //   clas name      obje name    new keyword   default cons.
@@ -30,6 +31,7 @@ public class C01_Constructor {
 
         obj3.aga();//agama selamkeee :)
         obj2.aga();//agama selamkeee :)
+        //aga();--> non-static method obj olmadan call edilemez.
 
     }// main sonu
 

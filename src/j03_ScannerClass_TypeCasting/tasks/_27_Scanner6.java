@@ -9,10 +9,12 @@ public class _27_Scanner6 {
     /*    kullanıcının
           Doğum gününü print eden code create ediniz */
 
-Scanner sc=new Scanner(System.in);
-        System.out.println("Lütfen doğum tarihinizi giriniz: ");
-        int dt=sc.nextInt();
-        System.out.println("Doğum tarihniz: "+dt );
+Scanner scan = new Scanner(System.in);
+        System.out.println("dogum tarihiniz?");
+
+        int dogumYiliniz= scan.nextInt();
+        System.out.println("dogum yiliniz: "+dogumYiliniz);
+
 
     }
 }

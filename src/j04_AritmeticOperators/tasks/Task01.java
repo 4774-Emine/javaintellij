@@ -22,7 +22,7 @@ public class Task01 {
 
         System.out.println(" d = " + ++d );
         System.out.println(" a = " + a-- );
-        
+            System.out.println("a : "+a);
         
 
 	}

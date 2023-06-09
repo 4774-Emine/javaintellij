@@ -8,11 +8,9 @@ public class _24_Scanner3 {
 
      /*  kullanıcını sevdiği meyveyi print eden code create ediniz  */
 
-Scanner sc=new Scanner(System.in);
-        System.out.println("Sevdiğiniz meyveyi giriniz: ");
-String meyve=sc.next();
-        System.out.println();
-        System.out.println("Sevdiğiniz meyve: "+ meyve);
-
+        Scanner scan= new Scanner(System.in);
+        System.out.println("en sevdiginiz meyve nedir?");
+         String meyveAdi= scan.next();
+        System.out.println("en sevdiğiniz meyve: "+meyveAdi+ " öyle mi");
     }
 }

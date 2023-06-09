@@ -19,6 +19,9 @@ public class C02_TypeCasting {
         //String basarı=basarılı; -> dogal uyum olmayan variable'larda castşng yapılamaz CTE
         // System.out.println("basarılı = " + basarılı);-> true
         // System.out.println("basarı = " + basarı);->true
+
+
+
         double d = 17;// double variable'a int 17 atandı k->b
         System.out.println("d = " + d);//d = 17.0 auto widding
         int sayi1 = 33;
@@ -58,6 +61,7 @@ public class C02_TypeCasting {
 
         double d3 = 333;
         long l = (long) d3;
+        System.out.println("l= "+ l);//333
 
         double d4=571.9444;
         long l2= (long) d4;

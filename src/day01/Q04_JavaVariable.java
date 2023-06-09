@@ -14,10 +14,10 @@ public class Q04_JavaVariable {
         System.out.println("hisAge = " + hisAge);
 
         // you can declare multiple variables in the same line
-        int year = 2022, month = 9, day =19;
+        int year = 2022, month = 9, day = 19;
 
         // updating a variable
-        year =2032;
+        year = 2032;
         System.out.println("year = " + year);
 
 
@@ -27,9 +27,9 @@ public class Q04_JavaVariable {
         //y degiskenini yeni bir degerle guncelleyin
 
         int x;
-        int y =20000;
-        x=123;
-        y=3000;
+        int y = 20000;
+        x = 123;
+        y = 3000;
 
         System.out.println("x = " + x);
         System.out.println("y = " + y);

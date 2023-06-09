@@ -8,18 +8,26 @@ public class Task04 {
         Clarusway spor salonu için kullanıcıdan isim soyisim, yaş, kilo, boy, salona devam edeceği ay süresini
         bilgilerini alıp aylık $20 olarak toplam ücretini hesplayıp print eden code create ediniz.
          */
-        System.out.println("***********Clarusway spor salonuna hoşgeldiniz******");
-        Scanner sc=new Scanner(System.in);
-        System.out.println("İsim ve soyisim giriniz" );
-        String isim = sc.nextLine();
-        System.out.println("Kaç yaşındasınız?");
-        int yas=sc.nextInt();
-        System.out.println("kilonuzu giriniz");
-        int kilo=sc.nextInt();
-        System.out.println("boyunuzu giriniz:");
-        double boy =sc.nextDouble();
-        System.out.println("Salona kaç ay devam edeceksiniz?");
-        int ay=sc.nextInt();
-        System.out.println("Toplam ödeemniz gereken ücret: "+ (ay*20)+ "$");
+        Scanner scan= new Scanner(System.in);
+        System.out.println("isminiz");
+        String isiminiz= scan.next();
+
+        System.out.println("soy isminiz");
+        String soyisminiz=scan.next();
+
+        System.out.println("yasiniz");
+        int yasiniz= scan.nextInt();
+
+        System.out.println("kilonuz");
+        int kilonuz= scan.nextInt();
+
+        System.out.println("boyunuz");
+        int byunuz= scan.nextInt();
+
+        System.out.println("salona devam edeceginiz ay suresi");
+        int sure= scan.nextInt();
+
+        System.out.println("odemeniz gereken ucret: "+sure*20+"$");
+
     }
 }

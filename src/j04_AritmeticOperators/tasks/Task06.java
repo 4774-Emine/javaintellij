@@ -1,7 +1,5 @@
 package j04_AritmeticOperators.tasks;
 
-import java.util.Scanner;
-
 public class Task06 {
 
     public static void main(String[] args) {
@@ -17,7 +15,7 @@ public class Task06 {
 
          */
 
-      Scanner sc=new Scanner(System.in);
+      /*Scanner sc=new Scanner(System.in);
         System.out.println("3 basamaklı bir sayı giriniz");
       int sayi=sc.nextInt();
       int birler=sayi%10;
@@ -26,7 +24,27 @@ public class Task06 {
       int yuzler=sayi/10;
         System.out.println("Girdiğiniz sayının birler basamağı: "+birler);
         System.out.println("Girdiğiniz sayının onlar basamağı: "+ onlar);
-        System.out.println("Girdiğiniz sayının yüzler basamağı:"+ yuzler);
+        System.out.println("Girdiğiniz sayının yüzler basamağı:"+ yuzler);*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }

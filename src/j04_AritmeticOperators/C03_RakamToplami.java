@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class C03_RakamToplami {
     public static void main(String[] args) {
-        // kullanıcıdan alınan 3 basamaklı bir sayını rakamları toplamını print eden code create ediniz
+        // kullanıcıdan alınan 3 basamaklı bir sayının rakamları toplamını print eden code create ediniz
 
 
         Scanner scan = new Scanner(System.in);
@@ -20,6 +20,14 @@ public class C03_RakamToplami {
        //System.out.println("rakamToplamı = " + rakamToplamı);
         System.out.println(birler+onlar+yüzler);
 
+        /*int x = 12345;
+        int birler = x%10; //5
+        int onlar = (x/10) %10; //4;
+        int yuzler =(x/100) %10 ; //3
+        int binler = (x/1000) %10; //2
+        int onBinler = (x/10000); //1
+
+        System.out.println(onBinler + "\n" + binler + "\n" +yuzler + "\n" + onlar + "\n" + birler );*/
 
 
 
