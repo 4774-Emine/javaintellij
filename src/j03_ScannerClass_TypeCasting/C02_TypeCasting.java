@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class C02_TypeCasting {
     public static void main(String[] args) {
 
+
 	/*
 		 byte < short < int < long < float < double
 			Auto Widening Casting -> Kucuk data type'larini buyuk data typlearina Java  otomatik olarak yapar.
@@ -19,7 +20,6 @@ public class C02_TypeCasting {
         //String basarı=basarılı; -> dogal uyum olmayan variable'larda castşng yapılamaz CTE
         // System.out.println("basarılı = " + basarılı);-> true
         // System.out.println("basarı = " + basarı);->true
-
 
 
         double d = 17;// double variable'a int 17 atandı k->b
@@ -61,10 +61,10 @@ public class C02_TypeCasting {
 
         double d3 = 333;
         long l = (long) d3;
-        System.out.println("l= "+ l);//333
+        System.out.println("l= " + l);//333
 
-        double d4=571.9444;
-        long l2= (long) d4;
+        double d4 = 571.9444;
+        long l2 = (long) d4;
         System.out.println("l2 = " + l2);//l2 = 571
 
 
@@ -78,11 +78,56 @@ public class C02_TypeCasting {
          */
         Scanner sc = new Scanner(System.in);//1 adım
         System.out.println("ascii değeri istediğin karakteri gir : ");//2 adım
-        char ch=sc.nextLine().charAt(0);
+        char ch = sc.nextLine().charAt(0);
 
 
-        int chasciiDegeri=ch;
-        System.out.println(ch+"'ın chasciiDegeri = " + chasciiDegeri);//$'ın chasciiDegeri = 36
+        int chasciiDegeri = ch;
+        System.out.println(ch + "'ın chasciiDegeri = " + chasciiDegeri);//$'ın chasciiDegeri = 36
+
+//******************AHMET HOCA***************************
+        /*bir data türündeki variable ya başka data türünden değer atanabilir mi?
+      bazı data türleri değer olarak başka data türündeki değerleri ASLA KABUL ETMEZ.
+
+      Sayısal değer alan primitive data türlerinde ise daha kapsamlı olan  data türündeki variable,daha dar
+      kapsamlı data türündeki değeri otomatik olarak kabul eder.
+
+*/
+        byte x = 12;
+        int z = x; //byte değerini int değerine genişlettik. JAVA BU ŞEKİLDE KÜÇÜKTEN BÜYÜĞE GEÇİŞİ OTOMATİK OLARAK YAPAR.
+        double y = z;
+
+
+        // Data Casting
+        int in1 = 10;
+        int in2 = 140;
+
+        //short sh1=in1; -->hata verir.büyük kovadaki su küçük kovaya sığmaz. Burada kendimiz elle yazıyoruz.
+        byte sh1 = (byte) in1;
+        System.out.println("sh1 = " + sh1);
+        byte sh2 = (byte) in2;
+        System.out.println("sh2 = " + sh2); // -116  (byte -128 ile 128 arasını alıyor)
+
+
+        double dbl1 = 99.99;
+        double dbl2 = 14.01;
+
+        int sayi= (int) dbl1; //int e çevrilirken ondalık kısım atılır.
+        System.out.println("99.99 int olarak  = " + sayi);
+
+
+
+        char ch1='a';
+        char ch2='b';
+        System.out.println(ch1+ch2);//195--> cjhar data türü ascii tablosu ile ortak çalışır.
+
+        //kullanıcıdan bir karakter alın.
+        //ascii tablosuna göre o karakterden sonraki 3 karakteri girin.
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Lütfen bir karakter giriniz:");
+        char girilenchar=scan.next().charAt(0);
+        System.out.println("girilen karakter sonraki 3 karakter: " + (girilenchar+1)+ (girilenchar+2)+ (girilenchar+3));
+        //sonuçları bana char olarak vermesini istersem;
+        System.out.println("girilen karakter sonraki 3 karakter: " + (char)(girilenchar+1)+ (char)(girilenchar+2)+ (char) (girilenchar+3));
 
 
     }

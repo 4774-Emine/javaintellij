@@ -20,6 +20,29 @@ public class C03_RakamToplami {
        //System.out.println("rakamToplamı = " + rakamToplamı);
         System.out.println(birler+onlar+yüzler);
 
+
+        // ****************AYNI SORUYA AHMET HOCANIN CEVABI ********************
+        Scanner scn = new Scanner(System.in);
+        System.out.print("3 basamaklı bir sayı giriniz : ");
+        int sayiİ = scan.nextInt();
+        int birlerbas=0;
+        int rakamToplami =0;
+        birlerbas=sayiİ % 10;
+        rakamToplami= rakamToplami + birlerbas;//sayı 213 rakamlar toplamı 3
+
+        sayiİ=sayiİ/10; //213/10-->21
+        birlerbas=sayiİ%10; //1
+        rakamToplami=rakamToplami+birlerbas; //3+1=4
+
+        sayiİ=sayiİ/10; //21/10=2
+        birlerbas=sayiİ%10;//2
+        rakamToplami=rakamToplami+birlerbas; //4+2=6
+        System.out.println("rakamToplami = " + rakamToplami);
+
+
+
+
+
         /*int x = 12345;
         int birler = x%10; //5
         int onlar = (x/10) %10; //4;

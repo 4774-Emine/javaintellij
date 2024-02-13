@@ -23,5 +23,9 @@ public class C01_Concatenation {
 
         // TRICK-> concat methodu parametre olarak string type harici tüm dataları srtinge cevirip concat eder
 
+
+        // ************************AHMET HOCA*************************
+
+
     }
 }

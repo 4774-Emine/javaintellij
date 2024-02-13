@@ -52,23 +52,47 @@ public class C04_WrapperClass {
 
         System.out.println("maxByteDegeri = " + maxByteDegeri);
         System.out.println("minByteDegeri = " + minByteDegeri);
-int maxIntDegeri=Integer.MAX_VALUE;
- int minIntDegeri=Integer.MIN_VALUE;
+        int maxIntDegeri = Integer.MAX_VALUE;
+        int minIntDegeri = Integer.MIN_VALUE;
 
         System.out.println(Integer.MAX_VALUE);
         System.out.println(Integer.MIN_VALUE);
 
-        short maxShortDegeri=Short.MAX_VALUE;
-        short minShortDegeri=Short.MIN_VALUE;
+        short maxShortDegeri = Short.MAX_VALUE;
+        short minShortDegeri = Short.MIN_VALUE;
 
         System.out.println("Short.MIN_VALUE = " + Short.MIN_VALUE);
         System.out.println("Short.MIN_VALUE = " + Short.MIN_VALUE);
 
 
-        int a=5;
+        int a = 5;
         System.out.println(a);// 5
         System.out.println(5);// 5
 
+// ************************AHMET HOCA********
+        int sayi = 10;
+        //primitive data türlerinin hazır methodları yoktur.
+        //Java primitive data türleri ile bazı methodları kullanabilmemiz için özel Wrapper Class'lar oluşturmuş.
+
+        Integer sayWrap = 10;
+
+        sayWrap = sayi; //castinge gerek yok data türleri aynı
+
+        System.out.println("Integer.MIN_VALUE = " + Integer.MIN_VALUE);
+
+        String str1= "34";
+        String str2="45";
+        //bu iki sitring içiçdeki sayıların toplamını yazdırın.
+        System.out.println("(str1+str2) = " + (str1 + str2));//3445
+        System.out.println("(Integer.parseInt(str1)+ Integer.parseInt(str2)) = " + (Integer.parseInt(str1) + Integer.parseInt(str2)));//79
+        //bu işlemi sadece string içindeki ifade sayı olduğunda yapar diğer türlü hata verir.
+
+
+         char chr='m';
+         //chr yi büyük harf olarak yazdırın.
+        System.out.println("Character.toUpperCase(chr) = " + Character.toUpperCase(chr));//M
+        System.out.println("Character.isAlphabetic(chr) = " + Character.isAlphabetic(chr));//true
+        System.out.println("Character.isDigit(chr) = " + Character.isDigit(chr));//false
 
 
 

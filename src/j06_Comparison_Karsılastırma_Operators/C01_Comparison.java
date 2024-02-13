@@ -13,14 +13,15 @@ public class C01_Comparison {
 
      */
 
-        int slmYs=33;
-        int krmYs=41;
+        int a = 33;
+        int b = 41;
 
 
-        System.out.println("krm b esit mi slm b -> "+(krmYs==slmYs));//false
-        System.out.println("krm b esit değil  mi slm b -> "+(krmYs!=slmYs));//true
-        System.out.println("krm b kucuk mu  slm b -> "+(krmYs<slmYs));//false
-        System.out.println("krm b buyuk mu   slm b -> "+(krmYs>slmYs));//true
+        System.out.println(a == b);//false //burada a=b demedi çünkü atama olurdu o zaman, bu yüzden == dedi
+        System.out.println(a != b);//true
+        System.out.println(a < b);//false
+        System.out.println(!(a<b));//false
+        System.out.println(a > b);//true
 
        /* s1 ve s2 String constant pool içerisinde aynı referans değere (reference) sahiptir.
     s1 == s2 , s1 ve s2 ‘nin hafızadaki adres değerlerini karşılaştırır ve
@@ -29,7 +30,7 @@ public class C01_Comparison {
         */
         String s1 = "Kerem bey";
         String s2 = "kerem bey";
-        System.out.println(s2==s1);//true
+        System.out.println(s2 == s1);//true
 
     }
 }
