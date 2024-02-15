@@ -82,11 +82,12 @@ public class C01_SwitchCase {
             case 9:
                 System.out.println("girlen rakam DOKUZ");
                 break;
-            default:
+            default://if else deki else gibi çalışır
                 System.out.println("adam gibi bir rakam gir  :(");
         }
-        System.out.println("agam bu yazıyı oluduysan code run olup switch den çıkmıştır");
+        System.out.println("agam bu yazıyı okuduysan code run olup switch den çıkmıştır");
 
 
+        }
     }
-}
+

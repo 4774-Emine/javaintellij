@@ -1,7 +1,5 @@
 package j10_StringManipulations;
 
-import java.util.Scanner;
-
 public class C09_Replace_ReplaceAll {
     public static void main(String[] args) {
 
@@ -14,6 +12,7 @@ public class C09_Replace_ReplaceAll {
         String str = "javaCAN'lara selam olsun java ile bolcana offer";
         System.out.println(str.replace('a', '@'));//j@v@CAN'l@r@ sel@m olsun j@v@ ile bolc@n@ offer
         System.out.println(str.replace("can", "kan"));//javaCAN'lara selam olsun java ile bolkana offer
+
         /** ReplaceFirst
          * Replace ile aynı sadece ilk bulunanı değiştirir
          */
@@ -23,7 +22,7 @@ public class C09_Replace_ReplaceAll {
 
 // replaceAll() method u replace() methoduna benzer ama 2 fark vardır
         //1-replace() methodu char kabul eder ama replaceAll kabul etmez
-        //2-replaceAll() method u regex kullanımına izin verir (Regular Expressions)
+        //2-replaceAll() methodu regex kullanımına izin verir (Regular Expressions)
 
         //(Regular Expressions)
         //   \\s bosluk (

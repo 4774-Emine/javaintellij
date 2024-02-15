@@ -20,7 +20,13 @@ public class _18_if_else_statement_find_min {
 
         //Kodu aşağıya yazınız. BU SATIRIN YUKARISINI DEĞİŞTİRMEYİNİZ.
 
-
+        if (i1 < i2 && i1 < i3) {
+            System.out.println("en küçük sayı: " + i1);
+        } else if (i2 < i1 && i2 < i3) {
+            System.out.println("en küçük sayı : " + i2);
+        } else if (i3 < i1 && i3 < i2) {
+            System.out.println("en küçük sayi: " + i3);
+        } else System.out.println("geçersiz giriş yaptınız ");
 
 
     }

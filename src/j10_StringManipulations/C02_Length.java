@@ -24,6 +24,7 @@ public class C02_Length {
 
         //str3.concat(str1);//rte
         System.out.println(str3.length());//Run time  error
+
         // TRICK-> null atanan stringler String method çalışmaz cıssss
         /*
         null case sensitivedir. yani Null veyaNULL yazılamaz

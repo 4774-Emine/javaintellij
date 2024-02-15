@@ -48,11 +48,17 @@ public class C07_indexOf_lastIndexOf {
 
         String cumle = sc.nextLine().toLowerCase();
 
-        if (cumle.indexOf("java") == -1) {
+        if (cumle.indexOf("java") == -1) {//java nın yokluğu kontrol ediliyor
             System.out.println("Girilen cumle java icermiyor");
         }else if (cumle.indexOf("java") == cumle.lastIndexOf("java")){
             System.out.println("Girilen cumle 1 tane java iceriyor");
         }else System.out.println("Girilen cumlede birden fazla java var");
+
+        //from index kullanımı:
+        String klm= "madem geldin dünyaya otur çalış java'ya :)";
+        //task: a karakterinin 13. indexten sonraki ilk indexini ver.
+        System.out.println("klm.indexOf(\"a\", 13) = " + klm.indexOf("a", 13));
+
 
     }
 }

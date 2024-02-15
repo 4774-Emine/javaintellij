@@ -20,7 +20,7 @@ public class C03_CharAt {
 
         System.out.println(sehir.charAt(0));//I
 
-       // System.out.println(sehir.charAt(18));// rte
+       // System.out.println(sehir.charAt(18));// rte--> StringIndexOutOfBoundsException
         //TRICK-> charAt() index boyutunu geçerse rte verir
 
         // Task-> istanbul izmir  girilen kelimenin kelimesinin ortadaki karakteri print eden code create ediniz...

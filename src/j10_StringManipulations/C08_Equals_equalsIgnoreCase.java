@@ -12,7 +12,10 @@ public class C08_Equals_equalsIgnoreCase {
          * str.toLowerCase() verilen String'in tamamini kucuk harfe cevirir
          * str.toUpperCase() verilen String'in tamamini buyuk harfe cevirir
          */
-
+//notmalde non-primitive data türündeki objeler new keywordu ile oluşturulur.
+        //Stringi de new keywordu ile oluşturabiliriz. (String str= new String("Java"))
+        // ancak Java bizim işimizi kolaylaştırmak için
+        //Stringe direkt değer atanmasını da sağlamıştır.
 
         String str1 = "Merhaba";
         String str2 = "merhaba ";
@@ -36,8 +39,8 @@ public class C08_Equals_equalsIgnoreCase {
 
         System.out.println(s1 == s2);//true
         System.out.println(s1.equals(s2));//true
-        System.out.println(s3 == s4);//false
-        System.out.println(s3.equals(s4));//true
+        System.out.println(s3 == s4);//false == hem referansa hem değere bakar.
+        System.out.println(s3.equals(s4));//true equals sadece değere bakar.
 
 
     }

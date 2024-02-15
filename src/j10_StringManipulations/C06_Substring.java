@@ -38,7 +38,7 @@ public class C06_Substring {
             System.out.println("agam sana 4 garfli gir demedik mi :(");
         }else{
             System.out.print(kelime.substring(kelime.length() - 1));//e
-            System.out.print(kelime.substring(kelime.length() - 2));//l
+            System.out.print(kelime.substring(2,3));//l
             System.out.print(kelime.substring(1,2));//a
             System.out.print(kelime.substring(0,1));//k
 

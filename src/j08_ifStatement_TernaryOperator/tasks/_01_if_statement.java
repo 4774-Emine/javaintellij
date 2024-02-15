@@ -11,11 +11,11 @@ public class _01_if_statement {
         //Kodu aşağıya yazınız.
 
 
-int num1=35;
-int num2=23;
-if(num1>num2){
-    System.out.println("int 1 is greater than 2");
-}else System.out.println("int 1 is smaller than 2");
+        int num1 = 35;
+        int num2 = 23;
+        if (num1 > num2) {
+            System.out.println("int 1 is greater than 2");
+        } else System.out.println("int 1 is smaller than 2");
 
     }
 }
